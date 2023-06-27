@@ -1,36 +1,24 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 
-List<Question> questionModelFromJson(String str) =>
-    List<Question>.from(json.decode(str)["question"].map((x) => Question.fromJson(x)));
-String questionModelToJson(List<Question> data) => json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
+List<LogicQuestion> logicQuestionModelFromJson(String str) =>
+    List<LogicQuestion>.from(json.decode(str)["logic"].map((x) => LogicQuestion.fromJson(x)));
+String logicQuestionModelToJson(List<LogicQuestion> data) => json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
 
-class Question {
-  Question({
+class LogicQuestion {
+  LogicQuestion({
     required this.questionText,
     required this.id,
-    required this.a,
-    required this.b,
-    required this.c,
-    required this.d,
     required this.answer,
   });
   late final String questionText;
   late final String id;
-  late final String a;
-  late final String b;
-  late final String c;
-  late final String d;
   late final String answer;
   Image? picture;
 
-  Question.fromJson(Map<String, dynamic> json) {
+  LogicQuestion.fromJson(Map<String, dynamic> json) {
     questionText = json['Q'];
     id = json['Id'];
-    a = json['A'];
-    b = json['B'];
-    c = json['C'];
-    d = json['D'];
     answer = json['Answer'];
   }
 
@@ -38,10 +26,6 @@ class Question {
     final data = <String, dynamic>{};
     data['Q'] = questionText;
     data['Id'] = id;
-    data['A'] = a;
-    data['B'] = b;
-    data['C'] = c;
-    data['D'] = d;
     data['Answer'] = answer;
     return data;
   }

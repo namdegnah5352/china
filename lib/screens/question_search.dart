@@ -3,6 +3,7 @@ import '../data/question.dart';
 import 'question_list_tile.dart';
 import '../calls/question_calls.dart';
 import 'question_screen.dart';
+import 'app_drawer.dart';
 
 class QuestionSearch extends StatefulWidget {
   final List<Question> questions;
@@ -16,6 +17,7 @@ class _QuestionSearchState extends State<QuestionSearch> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: AppDrawer(),
       appBar: AppBar(
         title: const Text('Questions'),
         actions: [

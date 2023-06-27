@@ -557,7 +557,7 @@
 			"C": "Weight is limited",
 			"D": "Width is limited",
 			"Answer": "C"
-		},	
+		},
 		{
 			"Q": "Picture",
 			"Id": "2.2.1.62",
@@ -566,7 +566,7 @@
 			"C": "Weight is limited",
 			"D": "Axle weight is limited",
 			"Answer": "D"
-		},	
+		},
 		{
 			"Q": "Picture",
 			"Id": "2.2.1.63",
@@ -629,7 +629,7 @@
 			"C": "Go one-way",
 			"D": "Stop",
 			"Answer": "A"
-		},	
+		},
 		{
 			"Q": "PictureV",
 			"Id": "2.2.1.70",
@@ -638,7 +638,7 @@
 			"C": "Go on the left side",
 			"D": "Turn left",
 			"Answer": "D"
-		},	
+		},
 		{
 			"Q": "PictureV",
 			"Id": "2.2.1.71",
@@ -683,7 +683,7 @@
 			"C": "Turn right",
 			"D": "Go on the left road",
 			"Answer": "A"
-		},	
+		},
 		{
 			"Q": "PictureV",
 			"Id": "2.2.1.76",
@@ -692,7 +692,7 @@
 			"C": "Stop on the left side",
 			"D": "Go on the right road",
 			"Answer": "B"
-		},	
+		},
 		{
 			"Q": "PictureO",
 			"Id": "2.2.1.77",
@@ -719,7 +719,7 @@
 			"C": "Vehicle tests",
 			"D": "Small buses",
 			"Answer": "A"
-		},	
+		},
 		{
 			"Q": "Picture",
 			"Id": "2.2.1.80",
@@ -818,7 +818,7 @@
 			"C": "A road branching point",
 			"D": "An interchange",
 			"Answer": "D"
-		},	
+		},
 		{
 			"Q": "Picture",
 			"Id": "2.2.1.91",
@@ -872,7 +872,7 @@
 			"C": "Lane branching guide signs",
 			"D": "Exit guide signs",
 			"Answer": "A"
-		},	
+		},
 		{
 			"Q": "PictureV",
 			"Id": "2.2.1.97",
@@ -899,7 +899,7 @@
 			"C": "Passing on both sides",
 			"D": "Passing is prohibited",
 			"Answer": "A"
-		},	
+		},
 		{
 			"Q": "Picture",
 			"Id": "2.2.1.100",
@@ -908,7 +908,37 @@
 			"C": "Direction to a tourist area",
 			"D": "Exit alert",
 			"Answer": "B"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.101",
+			"A": "A crosswalk",
+			"B": "Watch for children",
+			"C": "Hikers",
+			"D": "Watch for pedestrians",
+			"Answer": "C"
+		}
+	],
+	"logic": [
+		{
+			"Q": "The picture is a sign for a T-shaped intersection.",
+			"Answer": "true",
+			"Id": "2.2.2.1"
+		},
+		{
+			"Q": "The picture is a sign for a T-shaped intersection.",
+			"Answer": "false",
+			"Id": "2.2.2.2"
+		},	
+		{
+			"Q": "The picture is a sign for a sharp Right turn.",
+			"Answer": "true",
+			"Id": "2.2.2.3"
+		},
+		{
+			"Q": "The picture is a sign for a sharp Right turn.",
+			"Answer": "true",
+			"Id": "2.2.2.3"
 		}		
 	]
-	
 }
