@@ -37,9 +37,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
           children: [
             const SizedBox(height: 20),
             switch (widget.question.questionText) {
-              'Picture' => widget.question.getPicture(150)!,
-              'PictureV' => widget.question.getPicture(170)!,
-              'PictureO' => widget.question.getPicture(160)!,
+              'Picture' || 'PictureV' || 'PictureO' => widget.question.getPicture(150)!,
               _ => const SizedBox(height: 1, width: 1),
             },
             TextField(
@@ -113,12 +111,17 @@ class _QuestionScreenState extends State<QuestionScreen> {
         style: ButtonStyle(
           padding: MaterialStateProperty.all<EdgeInsets>(const EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10)),
           alignment: Alignment.center,
-          backgroundColor: MaterialStateProperty.all<Color>(Colors.blueGrey),
+          backgroundColor: MaterialStateProperty.all<Color>(value ? Colors.green : Colors.blueGrey),
+          shape: MaterialStateProperty.all(RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(15),
+            side: BorderSide(width: value ? 3 : 1),
+          )),
         ),
         child: Text(
           question,
           maxLines: 2,
           textAlign: TextAlign.center,
+          style: value ? const TextStyle(color: Colors.black, fontSize: 20) : const TextStyle(color: Colors.white),
         ),
       ),
     );

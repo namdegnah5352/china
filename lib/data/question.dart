@@ -50,10 +50,8 @@ class Question {
   Image? getPicture(double size) {
     var file = 'assets/images/$id.png';
     return switch (questionText) {
-      'Picture' => getImage(file, size),
-      'PictureV' => getImage(file, size),
-      'PictureO' => getImage(file, size),
-      _ => null
+      'Picture' || 'PictureV' || 'PictureO' => getImage(file, size),
+      _ => null,
     };
   }
 
