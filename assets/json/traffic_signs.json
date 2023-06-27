@@ -1,0 +1,707 @@
+{
+	"question": [
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.1",
+			"A": "A warning sign",
+			"B": "A prohibitive sign",
+			"C": "An indicative sign",
+			"D": "A directional sign",
+			"Answer": "A"
+		},
+		{
+			"Q": "A warning sign is designed to warn",
+			"Id": "2.2.1.2",
+			"A": "The vehicles and pedestrians to be careful at a dangerous place",
+			"B": "The vehicles and pedestrians not to pass",
+			"C": "The driver there is a curve ahead",
+			"D": "The driver there is a congestion-prone section ahead",
+			"Answer": "A"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.3",
+			"A": "A warning sign",
+			"B": "A prohibitive sign",
+			"C": "An indicative sign",
+			"D": "A directional sign",
+			"Answer": "D"
+		},
+		{
+			"Q": "A directional sign is designed to",
+			"Id": "2.2.1.4",
+			"A": "Warn the vehicles and pedestrians to be careful about a dangerous place",
+			"B": "Prohibit or restrict the vehicles and pedestrians from passing",
+			"C": "Indicate the vehicles and pedestrians to go ahead",
+			"D": "Give information about road direction, place and distance",
+			"Answer": "D"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.5",
+			"A": "A warning sign",
+			"B": "A prohibitive sign",
+			"C": "An indicative sign",
+			"D": "A directional sign",
+			"Answer": "B"
+		},
+		{
+			"Q": "A prohibitive sign is designed to",
+			"Id": "2.2.1.6",
+			"A": "Warn the vehicles and pedestrians to be careful about a dangerous place",
+			"B": "Give information about road direction, place and distance",
+			"C": "Indicate the vehicles and pedestrians to go ahead",
+			"D": "Prohibit or restrict the vehicles and pedestrians from passing",
+			"Answer": "D"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.7",
+			"A": "A warning sign",
+			"B": "A prohibitive sign",
+			"C": "An indicative sign",
+			"D": "A directional sign",
+			"Answer": "C"
+		},
+		{
+			"Q": "An indicative sign is designed to indicate the vehicles and pedestrians to",
+			"Id": "2.2.1.8",
+			"A": "Be careful about a dangerous place",
+			"B": "Go ahead according to the line and direction indicated by the sign",
+			"C": "Drive with care",
+			"D": "Go ahead either in the direction or not in the direction indicated",
+			"Answer": "B"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.9",
+			"A": "A warning sign",
+			"B": "A prohibitive sign",
+			"C": "A directional sign",
+			"D": "An auxiliary sign",
+			"Answer": "D"
+		},
+		{
+			"Q": "When the main sign is unable to completely express or indicate the requirements, _ should be set to ensure safe driving and smooth traffic.",
+			"Id": "2.2.1.10",
+			"A": "An indicative mark",
+			"B": "A warning mark",
+			"C": "An auxiliary sign",
+			"D": "A three-dimensional mark",
+			"Answer": "C"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.11",
+			"A": "A tourist zone sign",
+			"B": "An indicative sign",
+			"C": "A directional sign",
+			"D": "An auxiliary sign",
+			"Answer": "A"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.12",
+			"A": "A speed-reducing marking",
+			"B": "A width-limiting mark",
+			"C": "A tunnel marking",
+			"D": "A three-dimensional mark",
+			"Answer": "D"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.13",
+			"A": "A right turn",
+			"B": "A detour",
+			"C": "A sharp left curve",
+			"D": "A sharp right curve",
+			"Answer": "C"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.14",
+			"A": "Downhill road",
+			"B": "Uphill road",
+			"C": "Steep downhill road",
+			"D": "Steep uphill road",
+			"Answer": "D"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.15",
+			"A": "Steep downhill road",
+			"B": "Sliding",
+			"C": "Downhill road",
+			"D": "Steep uphill road",
+			"Answer": "A"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.16",
+			"A": "Road narrows on both sides",
+			"B": "Road narrows on the left side",
+			"C": "Road narrows on the right side",
+			"D": "Reduce speed",
+			"Answer": "B"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.17",
+			"A": "Road narrows on both sides",
+			"B": "Road narrows on the left side",
+			"C": "Road narrows on the right side",
+			"D": "Reduce speed",
+			"Answer": "C"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.18",
+			"A": "Mind side wind",
+			"B": "Watch for pedestrians",
+			"C": "The red light is on",
+			"D": "Mind the traffic lights",
+			"Answer": "D"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.19",
+			"A": "Watch for falling rocks",
+			"B": "Dangerous hillside road",
+			"C": "Mind downhill sliding",
+			"D": "Steep downhill road",
+			"Answer": "A"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.20",
+			"A": "Mind danger",
+			"B": "Mind side wind",
+			"C": "Watch for falling rocks",
+			"D": "Dangerous hillside road",
+			"Answer": "B"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.21",
+			"A": "Slippery road",
+			"B": "Embankment road",
+			"C": "Dangerous hillside road",
+			"D": "Steep downhill road",
+			"Answer": "C"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.22",
+			"A": "Village",
+			"B": "Tunnel",
+			"C": "Overflowing bridge",
+			"D": "Embankment road",
+			"Answer": "D"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.23",
+			"A": "Ferry",
+			"B": "Embankment road",
+			"C": "Hump bridge",
+			"D": "Overflowing bridge",
+			"Answer": "A"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.24",
+			"A": "Dangerous hillside road",
+			"B": "Village",
+			"C": "Watch for falling rocks",
+			"D": "School",
+			"Answer": "B"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.25",
+			"A": "Tunnel",
+			"B": "Culvert bridge",
+			"C": "Hump bridge",
+			"D": "Overflowing bridge",
+			"Answer": "C"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.26",
+			"A": "Dangerous hillside road",
+			"B": "Watch for pedestrians",
+			"C": "Watch for children",
+			"D": "Man at work",
+			"Answer": "D"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.27",
+			"A": "Overflowing road",
+			"B": "Mind splash",
+			"C": "Slippery",
+			"D": "Hump bridge",
+			"Answer": "A"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.28",
+			"A": "Embankment road",
+			"B": "Slippery",
+			"C": "Sharp curve",
+			"D": "Dangerous hillside road",
+			"Answer": "B"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.29",
+			"A": "Hump road",
+			"B": "House",
+			"C": "Tunnel",
+			"D": "Village",
+			"Answer": "C"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.30",
+			"A": "Accident ahead",
+			"B": "No passing",
+			"C": "Stop",
+			"D": "Danger",
+			"Answer": "D"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.31",
+			"A": "Watch for children",
+			"B": "Crosswalk",
+			"C": "School",
+			"D": "Village",
+			"Answer": "A"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.32",
+			"A": "Sharp curve",
+			"B": "Continuous curves",
+			"C": "Curve driving",
+			"D": "No turning",
+			"Answer": "B"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.33",
+			"A": "Drive in order",
+			"B": "Inverse curve",
+			"C": "Roundabout",
+			"D": "Detour",
+			"Answer": "C"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.34",
+			"A": "Turn left or turn right",
+			"B": "No passing",
+			"C": "Two-way traffic",
+			"D": "Intersection",
+			"Answer": "D"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.35",
+			"A": "Bump road",
+			"B": "Hump bridge",
+			"C": "Tunnel",
+			"D": "Embankment road",
+			"Answer": "A"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.36",
+			"A": "No animal passing",
+			"B": "Watch for animals",
+			"C": "Animal passing",
+			"D": "Animal-driven cart",
+			"Answer": "B"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.36",
+			"A": "No animal passing",
+			"B": "Watch for animals",
+			"C": "Animal passing",
+			"D": "Animal-driven cart",
+			"Answer": "B"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.37",
+			"A": "Bridge widens",
+			"B": "Bridge widens on both sides",
+			"C": "Narrow bridge",
+			"D": "Hump bridge",
+			"Answer": "C"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.38",
+			"A": "No passing through level crossing",
+			"B": "Crosswalk",
+			"C": "Unmanned level crossing",
+			"D": "Manned level crossing",
+			"Answer": "D"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.39",
+			"A": "Unmanned level crossing",
+			"B": "No passing",
+			"C": "No passing through level crossing",
+			"D": "Manned level crossing",
+			"Answer": "A"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.40",
+			"A": "No passing for non-motorized vehicles",
+			"B": "Watch for non-motorized vehicles",
+			"C": "Passing for non-motorized vehicles",
+			"D": "No passing for bicycles",
+			"Answer": "B"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.41",
+			"A": "Level crossing 50m ahead",
+			"B": "Level crossing 100m ahead",
+			"C": "Level crossing 150m ahead",
+			"D": "Level crossing 500m ahead",
+			"Answer": "C"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.42",
+			"A": "Danger",
+			"B": "No passing for all motor vehicles",
+			"C": "No tailgating",
+			"D": "Accident-prone section",
+			"Answer": "D"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.43",
+			"A": "Slow passing",
+			"B": "No slow passing",
+			"C": "Fast passing",
+			"D": "Jammed section",
+			"Answer": "A"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.44",
+			"A": "Bypassing from the left side",
+			"B": "Bypassing from both sides",
+			"C": "Bypassing from the right side",
+			"D": "No bypassing",
+			"Answer": "B"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.45",
+			"A": "No tow away",
+			"B": "No entry for non-motorized vehicles",
+			"C": "No entry for two specific vehicles",
+			"D": "No entry for all motorized vehicles",
+			"Answer": "C"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.46",
+			"A": "Right turn is allowed",
+			"B": "Changing to the right lane is prohibited",
+			"C": "Right U turn is prohibited",
+			"D": "Right turn is prohibited",
+			"Answer": "D"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.47",
+			"A": "No U turn",
+			"B": "No left turn",
+			"C": "U turn is allowed",
+			"D": "Left turn is allowed",
+			"Answer": "A"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.48",
+			"A": "No road borrowing",
+			"B": "No overtaking",
+			"C": "Overtaking ban is lifted",
+			"D": "Overtaking is allowed",
+			"Answer": "B"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.49",
+			"A": "No road borrowing",
+			"B": "No overtaking",
+			"C": "Overtaking ban is lifted",
+			"D": "No lane changing",
+			"Answer": "C"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.50",
+			"A": "Left turn is allowed",
+			"B": "No left turn",
+			"C": "Left U turn is allowed",
+			"D": "No lane changing to the left side",
+			"Answer": "B"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.51",
+			"A": "Honk ban is lifted",
+			"B": "Honk is allowed",
+			"C": "Radio listening is prohibited",
+			"D": "No honk",
+			"Answer": "D"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.52",
+			"A": "Width is limited",
+			"B": "Height is limited",
+			"C": "Width limit is lifted",
+			"D": "Bridge width is limited",
+			"Answer": "A"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.53",
+			"A": "Vehicle distance is limited",
+			"B": "Height is limited",
+			"C": "Width is limited",
+			"D": "Height limit is lifted",
+			"Answer": "B"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.54",
+			"A": "Weight is limited",
+			"B": "Road number",
+			"C": "Speed is limited",
+			"D": "Speed limit is lifted",
+			"Answer": "C"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.55",
+			"A": "Weight is limited",
+			"B": "Road number",
+			"C": "Speed is limited",
+			"D": "Speed limit is lifted",
+			"Answer": "D"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.56",
+			"A": "No two-way passing",
+			"B": "Going first when crossing each other",
+			"C": "Two-way traffic",
+			"D": "Yielding when crossing each other",
+			"Answer": "D"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.57",
+			"A": "Going straight is allowed",
+			"B": "Going straight is prohibited",
+			"C": "Going straight fast",
+			"D": "No entry",
+			"Answer": "B"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.58",
+			"A": "Going straight and turning right are prohibited",
+			"B": "Going straight and turning left are allowed",
+			"C": "Going straight and turning left are prohibited",
+			"D": "Going straight and turning right are allowed",
+			"Answer": "C"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.59",
+			"A": "Going straight and turning Right are prohibited",
+			"B": "Going straight and turning left are allowed",
+			"C": "Going straight and turning left are prohibited",
+			"D": "Going straight and turning right are allowed",
+			"Answer": "A"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.60",
+			"A": "Left and right turns are allowed",
+			"B": "Left and right turns are prohibited",
+			"C": "Left turn is allowed",
+			"D": "Right turn is allowed",
+			"Answer": "B"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.61",
+			"A": "Axle weight is limited",
+			"B": "Height is limited",
+			"C": "Weight is limited",
+			"D": "Width is limited",
+			"Answer": "C"
+		},	
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.62",
+			"A": "Width is limited",
+			"B": "Height is limited",
+			"C": "Weight is limited",
+			"D": "Axle weight is limited",
+			"Answer": "D"
+		},	
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.63",
+			"A": "No long stopping for vehicles",
+			"B": "No entry for motorized vehicles",
+			"C": "No entry",
+			"D": "No long or temporary stopping for vehicles",
+			"Answer": "D"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.64",
+			"A": "No long stopping for vehicles",
+			"B": "No long or temporary stopping for vehicles",
+			"C": "No temporary stopping for vehicles",
+			"D": "No entry for vehicles",
+			"Answer": "A"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.65",
+			"A": "Stop for inspection",
+			"B": "No passing",
+			"C": "No entry",
+			"D": "Stop to yield",
+			"Answer": "A"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.66",
+			"A": "No temporary stopping for vehicles",
+			"B": "Stop to yield",
+			"C": "No long or temporary stopping for vehicles",
+			"D": "No entry for motorized vehicles",
+			"Answer": "B"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.67",
+			"A": "Stop to yield",
+			"B": "Yield when crossing each other",
+			"C": "No yielding",
+			"D": "Reduce speed and yield",
+			"Answer": "D"
+		},
+		{
+			"Q": "Picture",
+			"Id": "2.2.1.68",
+			"A": "No entry for large buses",
+			"B": "No entry",
+			"C": "No entry for small buses",
+			"D": "No entry for motorized vehicles",
+			"Answer": "C"
+		},
+		{
+			"Q": "PictureV",
+			"Id": "2.2.1.69",
+			"A": "Go straight",
+			"B": "Enter",
+			"C": "Go one-way",
+			"D": "Stop",
+			"Answer": "A"
+		},	
+		{
+			"Q": "PictureV",
+			"Id": "2.2.1.70",
+			"A": "Turn right",
+			"B": "Go on the right side",
+			"C": "Go on the left side",
+			"D": "Turn left",
+			"Answer": "D"
+		},	
+		{
+			"Q": "PictureV",
+			"Id": "2.2.1.71",
+			"A": "Turn right",
+			"B": "Go one-way",
+			"C": "Go on the right side",
+			"D": "Go on the left side",
+			"Answer": "A"
+		},
+		{
+			"Q": "PictureV",
+			"Id": "2.2.1.72",
+			"A": "Go straight and turn right",
+			"B": "Go straight and turn left",
+			"C": "Go along the lanes",
+			"D": "Turn left ahead",
+			"Answer": "B"
+		},
+		{
+			"Q": "PictureV",
+			"Id": "2.2.1.73",
+			"A": "Go straight and turn left",
+			"B": "Go along the lanes",
+			"C": "Go straight and turn right",
+			"D": "Right -turn intersection ahead",
+			"Answer": "C"
+		},
+		{
+			"Q": "PictureV",
+			"Id": "2.2.1.74",
+			"A": "Prohibited from turning left or right",
+			"B": "Prohibited from going straight",
+			"C": "Prohibited from making U turns from either side",
+			"D": "Allowed to turn left and right",
+			"Answer": "D"
+		},
+		{
+			"Q": "PictureV",
+			"Id": "2.2.1.75",
+			"A": "Go on the right road",
+			"B": "Stop on the right side",
+			"C": "Turn right",
+			"D": "Go on the left road",
+			"Answer": "A"
+		},	
+		{
+			"Q": "PictureV",
+			"Id": "2.2.1.76",
+			"A": "Turn left",
+			"B": "Go on the left road",
+			"C": "Stop on the left side",
+			"D": "Go on the right road",
+			"Answer": "B"
+		},	
+		{
+			"Q": "PictureO",
+			"Id": "2.2.1.77",
+			"A": "Non-motorized vehicles",
+			"B": "Small buses",
+			"C": "All motorized vehicles",
+			"D": "Taxicabs",
+			"Answer": "C"
+		}	
+	]
+	
+}
