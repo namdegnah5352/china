@@ -14,6 +14,7 @@ class Question {
     required this.c,
     required this.d,
     required this.answer,
+    required this.type,
   });
   late final String questionText;
   late final String id;
@@ -22,16 +23,18 @@ class Question {
   late final String c;
   late final String d;
   late final String answer;
+  late final String type;
   Image? picture;
 
   Question.fromJson(Map<String, dynamic> json) {
     questionText = json['Q'];
     id = json['Id'];
-    a = json['A'];
-    b = json['B'];
-    c = json['C'];
-    d = json['D'];
+    a = json['A'] ??= '';
+    b = json['B'] ??= '';
+    c = json['C'] ??= '';
+    d = json['D'] ??= '';
     answer = json['Answer'];
+    type = json['Type'];
   }
 
   Map<String, dynamic> toJson() {
@@ -43,13 +46,14 @@ class Question {
     data['C'] = c;
     data['D'] = d;
     data['Answer'] = answer;
+    data['Type'] = type;
     return data;
   }
 
   Image? getPicture(double size) {
-    var file = 'assets/images/$id.png';
-    return switch (questionText) {
-      'Picture' || 'PictureV' || 'PictureO' => getImage(file, size),
+    var file = 'assets/images/questions/$id.png';
+    return switch (type[0]) {
+      'P' => getImage(file, size),
       _ => null,
     };
   }

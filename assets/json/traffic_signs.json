@@ -1,13 +1,14 @@
 {
 	"question": [
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture is _______.",
 			"Id": "2.2.1.1",
 			"A": "A warning sign",
 			"B": "A prohibitive sign",
 			"C": "An indicative sign",
 			"D": "A directional sign",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
 			"Q": "A warning sign is designed to warn",
@@ -16,16 +17,18 @@
 			"B": "The vehicles and pedestrians not to pass",
 			"C": "The driver there is a curve ahead",
 			"D": "The driver there is a congestion-prone section ahead",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "N"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture is _______.",
 			"Id": "2.2.1.3",
 			"A": "A warning sign",
 			"B": "A prohibitive sign",
 			"C": "An indicative sign",
 			"D": "A directional sign",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
 			"Q": "A directional sign is designed to",
@@ -34,16 +37,18 @@
 			"B": "Prohibit or restrict the vehicles and pedestrians from passing",
 			"C": "Indicate the vehicles and pedestrians to go ahead",
 			"D": "Give information about road direction, place and distance",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "N"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture is _______.",
 			"Id": "2.2.1.5",
 			"A": "A warning sign",
 			"B": "A prohibitive sign",
 			"C": "An indicative sign",
 			"D": "A directional sign",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
 			"Q": "A prohibitive sign is designed to",
@@ -52,16 +57,18 @@
 			"B": "Give information about road direction, place and distance",
 			"C": "Indicate the vehicles and pedestrians to go ahead",
 			"D": "Prohibit or restrict the vehicles and pedestrians from passing",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "N"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture is _______.",
 			"Id": "2.2.1.7",
 			"A": "A warning sign",
 			"B": "A prohibitive sign",
 			"C": "An indicative sign",
 			"D": "A directional sign",
-			"Answer": "C"
+			"Answer": "C",
+			"Type": "P"
 		},
 		{
 			"Q": "An indicative sign is designed to indicate the vehicles and pedestrians to",
@@ -70,16 +77,18 @@
 			"B": "Go ahead according to the line and direction indicated by the sign",
 			"C": "Drive with care",
 			"D": "Go ahead either in the direction or not in the direction indicated",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "N"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture is _______.",
 			"Id": "2.2.1.9",
 			"A": "A warning sign",
 			"B": "A prohibitive sign",
 			"C": "A directional sign",
 			"D": "An auxiliary sign",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
 			"Q": "When the main sign is unable to completely express or indicate the requirements, _ should be set to ensure safe driving and smooth traffic.",
@@ -88,857 +97,1124 @@
 			"B": "A warning mark",
 			"C": "An auxiliary sign",
 			"D": "A three-dimensional mark",
-			"Answer": "C"
+			"Answer": "C",
+			"Type": "N"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture is _________.",
 			"Id": "2.2.1.11",
 			"A": "A tourist zone sign",
 			"B": "An indicative sign",
 			"C": "A directional sign",
 			"D": "An auxiliary sign",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The picture indicates ______",
 			"Id": "2.2.1.12",
 			"A": "A speed-reducing marking",
 			"B": "A width-limiting mark",
 			"C": "A tunnel marking",
 			"D": "A three-dimensional mark",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.13",
 			"A": "A right turn",
 			"B": "A detour",
 			"C": "A sharp left curve",
 			"D": "A sharp right curve",
-			"Answer": "C"
+			"Answer": "C",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.14",
 			"A": "Downhill road",
 			"B": "Uphill road",
 			"C": "Steep downhill road",
 			"D": "Steep uphill road",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.15",
 			"A": "Steep downhill road",
 			"B": "Sliding",
 			"C": "Downhill road",
 			"D": "Steep uphill road",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.16",
 			"A": "Road narrows on both sides",
 			"B": "Road narrows on the left side",
 			"C": "Road narrows on the right side",
 			"D": "Reduce speed",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.17",
 			"A": "Road narrows on both sides",
 			"B": "Road narrows on the left side",
 			"C": "Road narrows on the right side",
 			"D": "Reduce speed",
-			"Answer": "C"
+			"Answer": "C",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.18",
 			"A": "Mind side wind",
 			"B": "Watch for pedestrians",
 			"C": "The red light is on",
 			"D": "Mind the traffic lights",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.19",
 			"A": "Watch for falling rocks",
 			"B": "Dangerous hillside road",
 			"C": "Mind downhill sliding",
 			"D": "Steep downhill road",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.20",
 			"A": "Mind danger",
 			"B": "Mind side wind",
 			"C": "Watch for falling rocks",
 			"D": "Dangerous hillside road",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.21",
 			"A": "Slippery road",
 			"B": "Embankment road",
 			"C": "Dangerous hillside road",
 			"D": "Steep downhill road",
-			"Answer": "C"
+			"Answer": "C",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.22",
 			"A": "Village",
 			"B": "Tunnel",
 			"C": "Overflowing bridge",
 			"D": "Embankment road",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.23",
 			"A": "Ferry",
 			"B": "Embankment road",
 			"C": "Hump bridge",
 			"D": "Overflowing bridge",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.24",
 			"A": "Dangerous hillside road",
 			"B": "Village",
 			"C": "Watch for falling rocks",
 			"D": "School",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.25",
 			"A": "Tunnel",
 			"B": "Culvert bridge",
 			"C": "Hump bridge",
 			"D": "Overflowing bridge",
-			"Answer": "C"
+			"Answer": "C",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.26",
 			"A": "Dangerous hillside road",
 			"B": "Watch for pedestrians",
 			"C": "Watch for children",
 			"D": "Man at work",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.27",
 			"A": "Overflowing road",
 			"B": "Mind splash",
 			"C": "Slippery",
 			"D": "Hump bridge",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.28",
 			"A": "Embankment road",
 			"B": "Slippery",
 			"C": "Sharp curve",
 			"D": "Dangerous hillside road",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.29",
 			"A": "Hump road",
 			"B": "House",
 			"C": "Tunnel",
 			"D": "Village",
-			"Answer": "C"
+			"Answer": "C",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.30",
 			"A": "Accident ahead",
 			"B": "No passing",
 			"C": "Stop",
 			"D": "Danger",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.31",
 			"A": "Watch for children",
 			"B": "Crosswalk",
 			"C": "School",
 			"D": "Village",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.32",
 			"A": "Sharp curve",
 			"B": "Continuous curves",
 			"C": "Curve driving",
 			"D": "No turning",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.33",
 			"A": "Drive in order",
 			"B": "Inverse curve",
 			"C": "Roundabout",
 			"D": "Detour",
-			"Answer": "C"
+			"Answer": "C",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.34",
 			"A": "Turn left or turn right",
 			"B": "No passing",
 			"C": "Two-way traffic",
 			"D": "Intersection",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.35",
 			"A": "Bump road",
 			"B": "Hump bridge",
 			"C": "Tunnel",
 			"D": "Embankment road",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.36",
 			"A": "No animal passing",
 			"B": "Watch for animals",
 			"C": "Animal passing",
 			"D": "Animal-driven cart",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.36",
 			"A": "No animal passing",
 			"B": "Watch for animals",
 			"C": "Animal passing",
 			"D": "Animal-driven cart",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.37",
 			"A": "Bridge widens",
 			"B": "Bridge widens on both sides",
 			"C": "Narrow bridge",
 			"D": "Hump bridge",
-			"Answer": "C"
+			"Answer": "C",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.38",
 			"A": "No passing through level crossing",
 			"B": "Crosswalk",
 			"C": "Unmanned level crossing",
 			"D": "Manned level crossing",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.39",
 			"A": "Unmanned level crossing",
 			"B": "No passing",
 			"C": "No passing through level crossing",
 			"D": "Manned level crossing",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.40",
 			"A": "No passing for non-motorized vehicles",
 			"B": "Watch for non-motorized vehicles",
 			"C": "Passing for non-motorized vehicles",
 			"D": "No passing for bicycles",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.41",
 			"A": "Level crossing 50m ahead",
 			"B": "Level crossing 100m ahead",
 			"C": "Level crossing 150m ahead",
 			"D": "Level crossing 500m ahead",
-			"Answer": "C"
+			"Answer": "C",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.42",
 			"A": "Danger",
 			"B": "No passing for all motor vehicles",
 			"C": "No tailgating",
 			"D": "Accident-prone section",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.43",
 			"A": "Slow passing",
 			"B": "No slow passing",
 			"C": "Fast passing",
 			"D": "Jammed section",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.44",
 			"A": "Bypassing from the left side",
 			"B": "Bypassing from both sides",
 			"C": "Bypassing from the right side",
 			"D": "No bypassing",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.45",
 			"A": "No tow away",
 			"B": "No entry for non-motorized vehicles",
 			"C": "No entry for two specific vehicles",
 			"D": "No entry for all motorized vehicles",
-			"Answer": "C"
+			"Answer": "C",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.46",
 			"A": "Right turn is allowed",
 			"B": "Changing to the right lane is prohibited",
 			"C": "Right U turn is prohibited",
 			"D": "Right turn is prohibited",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.47",
 			"A": "No U turn",
 			"B": "No left turn",
 			"C": "U turn is allowed",
 			"D": "Left turn is allowed",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.48",
 			"A": "No road borrowing",
 			"B": "No overtaking",
 			"C": "Overtaking ban is lifted",
 			"D": "Overtaking is allowed",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.49",
 			"A": "No road borrowing",
 			"B": "No overtaking",
 			"C": "Overtaking ban is lifted",
 			"D": "No lane changing",
-			"Answer": "C"
+			"Answer": "C",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.50",
 			"A": "Left turn is allowed",
 			"B": "No left turn",
 			"C": "Left U turn is allowed",
 			"D": "No lane changing to the left side",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.51",
 			"A": "Honk ban is lifted",
 			"B": "Honk is allowed",
 			"C": "Radio listening is prohibited",
 			"D": "No honk",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.52",
 			"A": "Width is limited",
 			"B": "Height is limited",
 			"C": "Width limit is lifted",
 			"D": "Bridge width is limited",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.53",
 			"A": "Vehicle distance is limited",
 			"B": "Height is limited",
 			"C": "Width is limited",
 			"D": "Height limit is lifted",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.54",
 			"A": "Weight is limited",
 			"B": "Road number",
 			"C": "Speed is limited",
 			"D": "Speed limit is lifted",
-			"Answer": "C"
+			"Answer": "C",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.55",
 			"A": "Weight is limited",
 			"B": "Road number",
 			"C": "Speed is limited",
 			"D": "Speed limit is lifted",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.56",
 			"A": "No two-way passing",
 			"B": "Going first when crossing each other",
 			"C": "Two-way traffic",
 			"D": "Yielding when crossing each other",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.57",
 			"A": "Going straight is allowed",
 			"B": "Going straight is prohibited",
 			"C": "Going straight fast",
 			"D": "No entry",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.58",
 			"A": "Going straight and turning right are prohibited",
 			"B": "Going straight and turning left are allowed",
 			"C": "Going straight and turning left are prohibited",
 			"D": "Going straight and turning right are allowed",
-			"Answer": "C"
+			"Answer": "C",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.59",
 			"A": "Going straight and turning Right are prohibited",
 			"B": "Going straight and turning left are allowed",
 			"C": "Going straight and turning left are prohibited",
 			"D": "Going straight and turning right are allowed",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.60",
 			"A": "Left and right turns are allowed",
 			"B": "Left and right turns are prohibited",
 			"C": "Left turn is allowed",
 			"D": "Right turn is allowed",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.61",
 			"A": "Axle weight is limited",
 			"B": "Height is limited",
 			"C": "Weight is limited",
 			"D": "Width is limited",
-			"Answer": "C"
+			"Answer": "C",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.62",
 			"A": "Width is limited",
 			"B": "Height is limited",
 			"C": "Weight is limited",
 			"D": "Axle weight is limited",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.63",
 			"A": "No long stopping for vehicles",
 			"B": "No entry for motorized vehicles",
 			"C": "No entry",
 			"D": "No long or temporary stopping for vehicles",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.64",
 			"A": "No long stopping for vehicles",
 			"B": "No long or temporary stopping for vehicles",
 			"C": "No temporary stopping for vehicles",
 			"D": "No entry for vehicles",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.65",
 			"A": "Stop for inspection",
 			"B": "No passing",
 			"C": "No entry",
 			"D": "Stop to yield",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.66",
 			"A": "No temporary stopping for vehicles",
 			"B": "Stop to yield",
 			"C": "No long or temporary stopping for vehicles",
 			"D": "No entry for motorized vehicles",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.67",
 			"A": "Stop to yield",
 			"B": "Yield when crossing each other",
 			"C": "No yielding",
 			"D": "Reduce speed and yield",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.68",
 			"A": "No entry for large buses",
 			"B": "No entry",
 			"C": "No entry for small buses",
 			"D": "No entry for motorized vehicles",
-			"Answer": "C"
+			"Answer": "C",
+			"Type": "P"
 		},
 		{
-			"Q": "PictureV",
+			"Q": "The sign in the picture means all vehicles are allowed only to _________.",
 			"Id": "2.2.1.69",
 			"A": "Go straight",
 			"B": "Enter",
 			"C": "Go one-way",
 			"D": "Stop",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "PictureV",
+			"Q": "The sign in the picture means all vehicles are allowed only to _________.",
 			"Id": "2.2.1.70",
 			"A": "Turn right",
 			"B": "Go on the right side",
 			"C": "Go on the left side",
 			"D": "Turn left",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "PictureV",
+			"Q": "The sign in the picture means all vehicles are allowed only to _________.",
 			"Id": "2.2.1.71",
 			"A": "Turn right",
 			"B": "Go one-way",
 			"C": "Go on the right side",
 			"D": "Go on the left side",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "PictureV",
+			"Q": "The sign in the picture means all vehicles are allowed only to _________.",
 			"Id": "2.2.1.72",
 			"A": "Go straight and turn right",
 			"B": "Go straight and turn left",
 			"C": "Go along the lanes",
 			"D": "Turn left ahead",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "PictureV",
+			"Q": "The sign in the picture means all vehicles are allowed only to _________.",
 			"Id": "2.2.1.73",
 			"A": "Go straight and turn left",
 			"B": "Go along the lanes",
 			"C": "Go straight and turn right",
 			"D": "Right -turn intersection ahead",
-			"Answer": "C"
+			"Answer": "C",
+			"Type": "P"
 		},
 		{
-			"Q": "PictureV",
+			"Q": "The sign in the picture means all vehicles are _______.",
 			"Id": "2.2.1.74",
 			"A": "Prohibited from turning left or right",
 			"B": "Prohibited from going straight",
 			"C": "Prohibited from making U turns from either side",
 			"D": "Allowed to turn left and right",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "PictureV",
+			"Q": "The sign in the picture means all vehicles are allowed only to ______.",
 			"Id": "2.2.1.75",
 			"A": "Go on the right road",
 			"B": "Stop on the right side",
 			"C": "Turn right",
 			"D": "Go on the left road",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "PictureV",
+			"Q": "The sign in the picture means all vehicles are allowed only to ______.",
 			"Id": "2.2.1.76",
 			"A": "Turn left",
 			"B": "Go on the left road",
 			"C": "Stop on the left side",
 			"D": "Go on the right road",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "PictureO",
+			"Q": "The sign in the picture allows _______ only.",
 			"Id": "2.2.1.77",
 			"A": "Non-motorized vehicles",
 			"B": "Small buses",
 			"C": "All motorized vehicles",
 			"D": "Taxicabs",
-			"Answer": "C"
+			"Answer": "C",
+			"Type": "P"
 		},
 		{
-			"Q": "PictureO",
+			"Q": "The sign in the picture means this section is only for _______.",
 			"Id": "2.2.1.78",
 			"A": "The passing of motorized vehicles",
 			"B": "The passing of bicycles",
 			"C": "The parking of bicycles",
 			"D": "The passing of non-motorized vehicles",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "PictureO",
+			"Q": "The sign in the picture means this lane is only for ______.",
 			"Id": "2.2.1.79",
 			"A": "The passing of motorized vehicles",
 			"B": "The one-way passing of small buses",
 			"C": "Vehicle tests",
 			"D": "Small buses",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means this lane is ________.",
 			"Id": "2.2.1.80",
 			"A": "A no entry lane",
 			"B": "A straight-going lane",
 			"C": "A one-way lane",
 			"D": "A fast lane",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means these lanes are for______.",
 			"Id": "2.2.1.81",
 			"A": "Going straight and turning left",
 			"B": "Turning and going straight",
 			"C": "Going in different directions",
 			"D": "Going straight and turning right",
-			"Answer": "C"
+			"Answer": "C",
+			"Type": "P"
 		},
 		{
-			"Q": "PictureV",
+			"Q": "The sign in the picture means the vehicles are allowed only to _____.",
 			"Id": "2.2.1.82",
 			"A": "Turn left",
 			"B": "Make U turn",
 			"C": "Go in two ways",
 			"D": "Go around on the right side",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means this lane is for _____.",
 			"Id": "2.2.1.83",
 			"A": "Both going straight and turning right",
 			"B": "Turning right ahead",
 			"C": "Going straight and turning left",
 			"D": "Turning left ahead",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "PictureV",
+			"Q": "The sign in the picture means _____ for motorized vehicles going into the road ahead.",
 			"Id": "2.2.1.84",
 			"A": "The average speed limit",
 			"B": "The minimum speed limit",
 			"C": "The minimum speed limit is lifted",
 			"D": "The maximum speed limit",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means this place is ______.",
 			"Id": "2.2.1.85",
 			"A": "Students’ passage",
 			"B": "Pedestrian street",
 			"C": "Crosswalk",
 			"D": "Children’s passage",
-			"Answer": "C"
+			"Answer": "C",
+			"Type": "P"
 		},
 		{
-			"Q": "PictureV",
+			"Q": "The sign in the picture means _______ when a motorized vehicle reaches this sign.",
 			"Id": "2.2.1.86",
 			"A": "Listening to radio is banned",
 			"B": "The no honk ban is lifted",
 			"C": "Honking is prohibited",
 			"D": "Honk is required",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "PictureO",
+			"Q": "The sign in the picture means this lane is only for ______",
 			"Id": "2.2.1.87",
 			"A": "The passing of motorized vehicles",
 			"B": "The passing of bicycles",
 			"C": "The parking of bicycles",
 			"D": "The passing of non-motorized vehicles",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "PictureV",
+			"Q": "The sign in the picture means motorized vehicles are allowed to _______.",
 			"Id": "2.2.1.88",
 			"A": "Bypass",
 			"B": "Make a U turn",
 			"C": "Turn",
 			"D": "Reverse",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture indicates the place ahead is ______.",
 			"Id": "2.2.1.89",
 			"A": "A demarcation line for road management",
 			"B": "An interchange",
 			"C": "An intersection",
 			"D": "A road branching point",
-			"Answer": "C"
+			"Answer": "C",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture indicates the place ahead is ______.",
 			"Id": "2.2.1.90",
 			"A": "A demarcation line for road management",
 			"B": "An intersection",
 			"C": "A road branching point",
 			"D": "An interchange",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means _______.",
 			"Id": "2.2.1.91",
 			"A": "A car park",
 			"B": "A service area",
 			"C": "No parking",
 			"D": "A dead-end road",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means _______.",
 			"Id": "2.2.1.92",
 			"A": "A T-shaped intersection",
 			"B": "A dead-end road",
 			"C": "An intersection",
 			"D": "A car park",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture indicates the place ahead is _____.",
 			"Id": "2.2.1.93",
 			"A": "A passing bay",
 			"B": "A road widening on the right side",
 			"C": "An emergency stopping strip",
 			"D": "Go on the right side",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "PictureV",
+			"Q": "The sign in the picture is used to indicate the correct line for vehicles to ____ at the intersection ahead.",
 			"Id": "2.2.1.94",
 			"A": "Make a U turn",
 			"B": "Make a detour",
 			"C": "Turn",
 			"D": "Change lane",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The signs in the picture are ________, meaning lanes branch out ahead and vehicles should go straight or leave the main road as indicated by the arrows.",
 			"Id": "2.2.1.95",
 			"A": "Lane merging guide signs",
 			"B": "Intersection guide signs",
 			"C": "Lane branching guide signs",
 			"D": "Exit guide signs",
-			"Answer": "C"
+			"Answer": "C",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The signs in the picture are ______, meaning lanes merge ahead and vehicles should keep a safe distance with the merging vehicles.",
 			"Id": "2.2.1.96",
 			"A": "Lane merging guide signs",
 			"B": "Intersection guide signs",
 			"C": "Lane branching guide signs",
 			"D": "Exit guide signs",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "PictureV",
+			"Q": "The signs in the picture are _______, used to guide the vehicle drivers to change direction",
 			"Id": "2.2.1.97",
 			"A": "Merging guide signs",
 			"B": "Line guide signs",
 			"C": "Branching guide signs",
 			"D": "Intersection guide signs",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.98",
 			"A": "Passing by the left side",
 			"B": "Passing by the right side",
 			"C": "Passing is prohibited",
 			"D": "Passing on both sides",
-			"Answer": "D"
+			"Answer": "D",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.99",
 			"A": "Passing by the left side",
 			"B": "Passing by the right side",
 			"C": "Passing on both sides",
 			"D": "Passing is prohibited",
-			"Answer": "A"
+			"Answer": "A",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.100",
 			"A": "A place",
 			"B": "Distance to a tourist area",
 			"C": "Direction to a tourist area",
 			"D": "Exit alert",
-			"Answer": "B"
+			"Answer": "B",
+			"Type": "P"
 		},
 		{
-			"Q": "Picture",
+			"Q": "The sign in the picture means ________.",
 			"Id": "2.2.1.101",
 			"A": "A crosswalk",
 			"B": "Watch for children",
 			"C": "Hikers",
 			"D": "Watch for pedestrians",
-			"Answer": "C"
-		}
-	],
-	"logic": [
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "Traffic markings are divided into ______ according to functions",
+			"Id": "2.3.1.1",
+			"A": "Direction",
+			"B": "Prohibition",
+			"C": "Lane line, exit and entry",
+			"D": "Indication, prohibition and warning",
+			"Answer": "D",
+			"Type": "N"
+		},
 		{
 			"Q": "The picture is a sign for a T-shaped intersection.",
 			"Answer": "true",
-			"Id": "2.2.2.1"
+			"Id": "2.2.2.1",
+			"Type": "Plogic"
 		},
 		{
 			"Q": "The picture is a sign for a T-shaped intersection.",
 			"Answer": "false",
-			"Id": "2.2.2.2"
-		},	
-		{
-			"Q": "The picture is a sign for a sharp Right turn.",
-			"Answer": "true",
-			"Id": "2.2.2.3"
+			"Id": "2.2.2.2",
+			"Type": "Plogic"
 		},
 		{
 			"Q": "The picture is a sign for a sharp Right turn.",
 			"Answer": "true",
-			"Id": "2.2.2.3"
+			"Id": "2.2.2.3",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for a sharp curve",
+			"Answer": "false",
+			"Id": "2.2.2.4",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for continuous curves.",
+			"Answer": "true",
+			"Id": "2.2.2.5",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for two-way curves",
+			"Answer": "false",
+			"Id": "2.2.2.6",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for yielding when crossing each other",
+			"Answer": "false",
+			"Id": "2.2.2.7",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The whole picture is a crosswalk sign.",
+			"Answer": "false",
+			"Id": "2.2.2.8",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The picture is a sign for traffic lights.",
+			"Answer": "true",
+			"Id": "2.2.2.9",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The picture is a sign for a slippery road.",
+			"Answer": "true",
+			"Id": "2.2.2.10",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for an unmanned level crossing.",
+			"Answer": "true",
+			"Id": "2.2.2.11",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a village sign.",
+			"Answer": "true",
+			"Id": "2.2.2.12",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The picture is a sign for tunnel opening.",
+			"Answer": "false",
+			"Id": "2.2.2.13",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The picture is a sign for level crossing 100m ahead.",
+			"Answer": "false",
+			"Id": "2.2.2.14",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The picture is a sign for level crossing 100m ahead.",
+			"Answer": "true",
+			"Id": "2.2.2.15",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a slowdown sign.",
+			"Answer": "true",
+			"Id": "2.2.2.16",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for no left bypassing.",
+			"Answer": "false",
+			"Id": "2.2.2.17",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The picture is a sign for Right bypassing.",
+			"Answer": "true",
+			"Id": "2.2.2.18",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for no passing.",
+			"Answer": "true",
+			"Id": "2.2.2.19",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The picture is a sign for no passing.",
+			"Answer": "false",
+			"Id": "2.2.2.20",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for no entry to motorized vehicles.",
+			"Answer": "true",
+			"Id": "2.2.2.21",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for no overtaking.",
+			"Answer": "true",
+			"Id": "2.2.2.22",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The picture is a sign for limited axle weight.",
+			"Answer": "false",
+			"Id": "2.2.2.23",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The picture is a sign for limited weight.",
+			"Answer": "false",
+			"Id": "2.2.2.24",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a stop-for-inspection sign.",
+			"Answer": "true",
+			"Id": "2.2.2.25",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The picture is a stop-and-yield sign.",
+			"Answer": "false",
+			"Id": "2.2.2.26",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The picture is a sign for no left turn.",
+			"Answer": "true",
+			"Id": "2.2.2.27",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for left and Right turns.",
+			"Answer": "false",
+			"Id": "2.2.2.28",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The picture is a sign prohibiting going straight and turning Right.",
+			"Answer": "true",
+			"Id": "2.2.2.29",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The picture is a sign prohibiting temporary vehicle stopping.",
+			"Answer": "false",
+			"Id": "2.2.2.30",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign prohibiting long stopping by vehicles.",
+			"Answer": "false",
+			"Id": "2.2.2.31",
+			"Type": "Plogic"
 		}		
 	]
 }

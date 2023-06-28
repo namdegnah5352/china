@@ -17,12 +17,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
   @override
   void initState() {
     controller = TextEditingController();
-    controller.text = switch (widget.question.questionText) {
-      'Picture' => 'The sign in the picture is',
-      'PictureV' => 'The sign in the picture means all vehicles are allowed only to',
-      'PictureO' => 'The sign in the picture allows _______ only',
-      _ => widget.question.questionText,
-    };
+    controller.text = widget.question.questionText;
     super.initState();
   }
 
@@ -36,23 +31,20 @@ class _QuestionScreenState extends State<QuestionScreen> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             const SizedBox(height: 20),
-            switch (widget.question.questionText) {
-              'Picture' || 'PictureV' || 'PictureO' => widget.question.getPicture(150)!,
+            switch (widget.question.type[0]) {
+              'P' => widget.question.getPicture(150)!,
               _ => const SizedBox(height: 1, width: 1),
             },
             TextField(
               readOnly: true,
               controller: controller,
-              maxLines: 2,
+              maxLines: 3,
             ),
-            const SizedBox(height: 20),
-            getButton('A', widget.question.a),
-            const SizedBox(height: 20),
-            getButton('B', widget.question.b),
-            const SizedBox(height: 20),
-            getButton('C', widget.question.c),
-            const SizedBox(height: 20),
-            getButton('D', widget.question.d),
+            switch (widget.question.type) {
+              'P' => getFourAnswers(widget.question),
+              'Plogic' => getLogicAnswer(widget.question),
+              _ => getFourAnswers(widget.question),
+            },
             const SizedBox(height: 20),
             Container(
               height: 40,
@@ -69,10 +61,59 @@ class _QuestionScreenState extends State<QuestionScreen> {
                     ))
                   : const SizedBox(height: 1, width: 1),
             ),
-            SizedBox(height: 30),
+            const SizedBox(height: 30),
             getNextButton(ans, 'Next'),
           ],
         ),
+      ),
+    );
+  }
+
+  Widget getLogicAnswer(Question question) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        const SizedBox(height: 20),
+        getLogicButton(question.answer, 'True'),
+        const SizedBox(height: 20),
+        getLogicButton(question.answer, 'False'),
+      ],
+    );
+  }
+
+  Widget getFourAnswers(Question question) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        const SizedBox(height: 20),
+        getButton('A', widget.question.a),
+        const SizedBox(height: 20),
+        getButton('B', widget.question.b),
+        const SizedBox(height: 20),
+        getButton('C', widget.question.c),
+        const SizedBox(height: 20),
+        getButton('D', widget.question.d),
+        const SizedBox(height: 20),
+      ],
+    );
+  }
+
+  Widget getLogicButton(String value, String question) {
+    return FilledButton.tonal(
+      onPressed: () {
+        setState(() {
+          ans = question.toLowerCase() == value.toLowerCase();
+        });
+      },
+      style: ButtonStyle(
+        padding: MaterialStateProperty.all<EdgeInsets>(const EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10)),
+        alignment: Alignment.center,
+        backgroundColor: MaterialStateProperty.all<Color>(Colors.blue),
+      ),
+      child: Text(
+        question,
+        maxLines: 2,
+        textAlign: TextAlign.center,
       ),
     );
   }
