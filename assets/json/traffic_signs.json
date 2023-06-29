@@ -1233,6 +1233,54 @@
 			"Answer": "true",
 			"Id": "2.2.2.34",
 			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for going first when crossing each other.",
+			"Answer": "true",
+			"Id": "2.2.2.35",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The picture is a sign for yielding to traffic on the branch road.",
+			"Answer": "false",
+			"Id": "2.2.2.36",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for small bus lane.",
+			"Answer": "false",
+			"Id": "2.2.2.37",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for watching out for pedestrians.",
+			"Answer": "false",
+			"Id": "2.2.2.38",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The picture is a sign for going straight and turning Right at an interchange.",
+			"Answer": "true",
+			"Id": "2.2.2.39",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The picture is a sign for going straight and turning left at an interchange.",
+			"Answer": "true",
+			"Id": "2.2.2.40",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a left-turn sign.",
+			"Answer": "false",
+			"Id": "2.2.2.41",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a one-way sign.",
+			"Answer": "false",
+			"Id": "2.2.2.42",
+			"Type": "Plogic"
 		}		
 	]
 }

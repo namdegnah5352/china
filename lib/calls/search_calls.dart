@@ -24,9 +24,13 @@ bool _getSearchResult(Question question, String criteria) {
     'D' => question.d,
     _ => '',
   };
-  result = question.questionText.toLowerCase().startsWith(criteria.toLowerCase()) ||
-      question.questionText.toLowerCase().contains(criteria.toLowerCase()) ||
-      answers.toLowerCase().contains(criteria.toLowerCase());
+  var criteriaPartsPassed = true;
+  var parts = criteria.split(' ');
+  var searchString = '${answers.toLowerCase()} ${question.questionText.toLowerCase()}';
+  for (var criteriaPart in parts) {
+    if (!searchString.contains(criteriaPart)) criteriaPartsPassed = false;
+  }
+  result = criteriaPartsPassed || searchString.contains(criteria.toLowerCase());
   return result;
 }
 
