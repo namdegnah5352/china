@@ -1215,6 +1215,24 @@
 			"Answer": "false",
 			"Id": "2.2.2.31",
 			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign prohibiting U turn.",
+			"Answer": "false",
+			"Id": "2.2.2.32",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for going by the Right road.",
+			"Answer": "false",
+			"Id": "2.2.2.33",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The picture is a one-way sign.",
+			"Answer": "true",
+			"Id": "2.2.2.34",
+			"Type": "Plogic"
 		}		
 	]
 }
