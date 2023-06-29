@@ -20,4 +20,5 @@ flutter:
 
   assets:
     - assets/images/questions/
+    - assets/images/
     - assets/json/

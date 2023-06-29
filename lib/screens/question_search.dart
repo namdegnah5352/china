@@ -17,7 +17,7 @@ class _QuestionSearchState extends State<QuestionSearch> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: AppDrawer(),
+      drawer: AppDrawer(widget.questions),
       appBar: AppBar(
         title: const Text('Questions'),
         actions: [

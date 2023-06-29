@@ -1,59 +1,85 @@
+//System
 import 'package:flutter/material.dart';
+import '../calls/question_calls.dart' as calls;
+import '../config/app_colors.dart';
+import '../data/question.dart';
 
-class AppDrawer extends StatefulWidget {
-  const AppDrawer({super.key});
-
-  @override
-  State<AppDrawer> createState() => _AppDrawerState();
-}
-
-class _AppDrawerState extends State<AppDrawer> {
-  int navDrawerIndex = 0;
+class AppDrawer extends StatelessWidget {
+  final List<Question> questions;
+  const AppDrawer(this.questions, {super.key});
 
   @override
   Widget build(BuildContext context) {
-    return NavigationDrawer(
-      onDestinationSelected: (selectedIndex) {
-        setState(() {
-          navDrawerIndex = selectedIndex;
-          // Destination.values[navDrawerIndex].function();
-          Navigator.pop(context);
-        });
-      },
-      selectedIndex: navDrawerIndex,
-      children: <Widget>[
-        Padding(
-          padding: const EdgeInsets.fromLTRB(28, 16, 16, 10),
-          child: Text(
-            'Mail',
-            style: Theme.of(context).textTheme.titleSmall,
+    return Drawer(
+      backgroundColor: simplyWhite,
+      child: ListView(
+        padding: EdgeInsets.zero,
+        children: <Widget>[
+          const DrawerHeader(
+            decoration: BoxDecoration(
+              color: Colors.white,
+              image: DecorationImage(
+                image: AssetImage('assets/images/drawer_top.png'),
+                fit: BoxFit.cover,
+              ),
+            ),
+            child: Text('Menu'),
           ),
-        ),
-        ...Destination.values.map((destination) {
-          return NavigationDrawerDestination(
-            label: Text(destination.label),
-            icon: destination.iconOutlined,
-            selectedIcon: destination.icon,
-          );
-        }),
-        const Divider(indent: 28, endIndent: 28),
-      ],
+          ListTile(
+            contentPadding: const EdgeInsets.symmetric(vertical: 0, horizontal: 16),
+            leading: const Icon(Icons.search),
+            title: const Text('Search'),
+            onTap: () async {
+              Navigator.pop(context);
+              await calls.loadSearchPage(context, questions);
+            },
+          ),
+          const Divider(
+            thickness: 1.0,
+          ),
+          ListTile(
+            leading: const Icon(Icons.group),
+            title: const Text('Groups'),
+            onTap: () async {
+              Navigator.pop(context);
+              // await calls.loadGroups();
+            },
+          ),
+          const Divider(
+            thickness: 1.0,
+          ),
+          ListTile(
+            leading: const Icon(Icons.type_specimen),
+            title: const Text('Types'),
+            onTap: () async {
+              Navigator.pop(context);
+              // await calls.loadTypes();
+            },
+          ),
+          const Divider(
+            thickness: 1.0,
+          ),
+          ListTile(
+            leading: const Icon(Icons.password),
+            title: const Text('Passwords'),
+            onTap: () async {
+              Navigator.pop(context);
+              // await calls.loadPasswords();
+            },
+          ),
+          const Divider(
+            thickness: 1.0,
+          ),
+          ListTile(
+            leading: const Icon(Icons.home),
+            title: const Text('Home'),
+            onTap: () async {
+              Navigator.pop(context);
+              // await calls.search();
+            },
+          ),
+        ],
+      ),
     );
   }
-}
-
-enum Destination {
-  home('Home', Icon(Icons.home_outlined), Icon(Icons.home)),
-  user('not here', Icon(Icons.inbox_outlined), Icon(Icons.inbox)),
-  accounts('Accounts', Icon(Icons.send_outlined), Icon(Icons.send)),
-  users('Users', Icon(Icons.bookmark_border), Icon(Icons.bookmark)),
-  transactions('Transactions', Icon(Icons.favorite_outline), Icon(Icons.favorite)),
-  family('Family', Icon(Icons.delete_outline), Icon(Icons.delete)),
-  school('School', Icon(Icons.bookmark_border), Icon(Icons.bookmark)),
-  work('Settings', Icon(Icons.bookmark_border), Icon(Icons.bookmark));
-
-  const Destination(this.label, this.iconOutlined, this.icon);
-  final String label;
-  final Widget iconOutlined;
-  final Widget icon;
 }
