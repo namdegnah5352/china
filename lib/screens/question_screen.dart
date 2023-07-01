@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import '../data/question.dart';
 import '../calls/question_calls.dart';
+import '../config/navigation/global_nav.dart';
+import '../config/constants.dart';
+
+GlobalNav globalNav = GlobalNav.instance;
 
 class QuestionScreen extends StatefulWidget {
   final Question question;
@@ -14,10 +18,12 @@ class QuestionScreen extends StatefulWidget {
 class _QuestionScreenState extends State<QuestionScreen> {
   late TextEditingController controller;
   bool ans = false;
+  late bool truthSettings;
   @override
   void initState() {
     controller = TextEditingController();
     controller.text = widget.question.questionText;
+    truthSettings = globalNav.sharedPreferences!.getBool(AppConstants.truthSettingsKey)!;
     super.initState();
   }
 
@@ -130,7 +136,8 @@ class _QuestionScreenState extends State<QuestionScreen> {
       style: ButtonStyle(
         padding: MaterialStateProperty.all<EdgeInsets>(const EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10)),
         alignment: Alignment.center,
-        backgroundColor: MaterialStateProperty.all<Color>(Colors.blue),
+        backgroundColor:
+            MaterialStateProperty.all<Color>(truthSettings && widget.question.answer == value ? Colors.green : Colors.blue),
       ),
       child: Text(
         question,

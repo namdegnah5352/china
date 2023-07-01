@@ -1,4 +1,7 @@
+import 'package:back_button_master/config/constants.dart';
+
 import '../data/question.dart';
+import '../config/navigation/global_nav.dart';
 
 late List<Question> _fulldata;
 late List<Question> _results;
@@ -31,7 +34,12 @@ bool _getSearchResult(Question question, String criteria) {
     RegExp regExp = RegExp(r"\b" + criteriaPart + r"\b");
     if (!regExp.hasMatch(searchString)) criteriaPartsPassed = false;
   }
+  bool includeQuestion = switch (GlobalNav.instance.sharedPreferences!.getBool(AppConstants.truthSettingsKey)!) {
+    false => true,
+    true => question.answer.toLowerCase() == 'true' || question.answer.toLowerCase() != 'false' ? true : false,
+  };
   result = criteriaPartsPassed || searchString.contains(criteria.toLowerCase());
+  result = result && includeQuestion;
   return result;
 }
 

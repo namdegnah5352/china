@@ -38,11 +38,11 @@ class AppDrawer extends StatelessWidget {
             thickness: 1.0,
           ),
           ListTile(
-            leading: const Icon(Icons.group),
-            title: const Text('Groups'),
+            leading: const Icon(Icons.settings),
+            title: const Text('Settings'),
             onTap: () async {
               Navigator.pop(context);
-              // await calls.loadGroups();
+              await calls.loadSettinsPage(context);
             },
           ),
           const Divider(

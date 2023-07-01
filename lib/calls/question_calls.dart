@@ -2,6 +2,7 @@ import '../data/question.dart';
 import 'dart:math';
 import 'package:flutter/material.dart';
 import '../screens/question_search_screen.dart';
+import '../screens/settings.dart';
 
 Question getRandomQuestion(List<Question> questions) {
   int i = questions.length;
@@ -13,5 +14,11 @@ Question getRandomQuestion(List<Question> questions) {
 Future<void> loadSearchPage(BuildContext context, List<Question> data) async {
   Navigator.of(context).push(MaterialPageRoute(
     builder: (_) => QuestionSearchScreen(data: data),
+  ));
+}
+
+Future<void> loadSettinsPage(BuildContext context) async {
+  Navigator.of(context).push(MaterialPageRoute(
+    builder: (_) => const Settings(),
   ));
 }

@@ -1,12 +1,18 @@
 import 'package:flutter/material.dart';
 import 'data/read_config.dart';
+import 'config/navigation/global_nav.dart';
 
-void main() {
-  runApp(const MainApp());
+late GlobalNav globalNav;
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  globalNav = GlobalNav();
+  await globalNav.init();
+  runApp(const MyApp());
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
