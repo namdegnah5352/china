@@ -28,7 +28,8 @@ bool _getSearchResult(Question question, String criteria) {
   var parts = criteria.split(' ');
   var searchString = '${answers.toLowerCase()} ${question.questionText.toLowerCase()}';
   for (var criteriaPart in parts) {
-    if (!searchString.contains(criteriaPart)) criteriaPartsPassed = false;
+    RegExp regExp = RegExp(r"\b" + criteriaPart + r"\b");
+    if (!regExp.hasMatch(searchString)) criteriaPartsPassed = false;
   }
   result = criteriaPartsPassed || searchString.contains(criteria.toLowerCase());
   return result;
