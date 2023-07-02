@@ -7,9 +7,7 @@ class GlobalNav {
 
   static final GlobalNav instance = GlobalNav._internal();
 
-  factory GlobalNav() {
-    return instance;
-  }
+  factory GlobalNav() => instance;
 
   GlobalNav._internal();
 
@@ -22,6 +20,7 @@ class GlobalNav {
 void setUpShared(SharedPreferences sharedPreferences) {
   // User_id the unique identifier of the user
   bool? truthSettings = sharedPreferences.getBool(AppConstants.truthSettingsKey);
-
   if (truthSettings == null) sharedPreferences.setBool(AppConstants.truthSettingsKey, AppConstants.truthSettings);
+  bool? soundSettings = sharedPreferences.getBool(AppConstants.soundsKey);
+  if (soundSettings == null) sharedPreferences.setBool(AppConstants.soundsKey, AppConstants.sounds);
 }

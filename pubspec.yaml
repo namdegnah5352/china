@@ -7,8 +7,10 @@ environment:
   sdk: '>=3.0.5 <4.0.0'
 
 dependencies:
+  audioplayers: ^4.1.0
   flutter:
     sdk: flutter
+  photo_view: ^0.14.0
   shared_preferences: ^2.1.2
   
 dev_dependencies:
@@ -23,3 +25,4 @@ flutter:
     - assets/images/questions/
     - assets/images/
     - assets/json/
+    - assets/media/

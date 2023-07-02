@@ -3,6 +3,8 @@ import '../data/question.dart';
 import '../calls/question_calls.dart';
 import '../config/navigation/global_nav.dart';
 import '../config/constants.dart';
+import 'package:audioplayers/audioplayers.dart';
+import 'dart:io';
 
 GlobalNav globalNav = GlobalNav.instance;
 
@@ -19,12 +21,22 @@ class _QuestionScreenState extends State<QuestionScreen> {
   late TextEditingController controller;
   bool ans = false;
   late bool truthSettings;
+  late bool soundSettings;
+  final double volumeSetting = 0.05;
+
   @override
   void initState() {
     controller = TextEditingController();
     controller.text = widget.question.questionText;
     truthSettings = globalNav.sharedPreferences!.getBool(AppConstants.truthSettingsKey)!;
+    soundSettings = globalNav.sharedPreferences!.getBool(AppConstants.soundsKey)!;
     super.initState();
+  }
+
+  @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
   }
 
   @override
@@ -39,7 +51,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
             children: [
               const SizedBox(height: 20),
               switch (widget.question.type[0]) {
-                'P' => widget.question.getPicture(150)!,
+                'P' => widget.question.getPicture(150, true, context)!,
                 _ => const SizedBox(height: 1, width: 1),
               },
               TextField(
@@ -128,10 +140,14 @@ class _QuestionScreenState extends State<QuestionScreen> {
 
   Widget getButton(String value, String question) {
     return FilledButton.tonal(
-      onPressed: () {
+      onPressed: () async {
         setState(() {
           ans = widget.question.answer == value;
         });
+        if ((ans == false) && soundSettings) {
+          final player = AudioPlayer();
+          await player.play(AssetSource('media/Doh.mp3'), mode: PlayerMode.lowLatency, volume: volumeSetting);
+        }
       },
       style: ButtonStyle(
         padding: MaterialStateProperty.all<EdgeInsets>(const EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10)),

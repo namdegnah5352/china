@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 
 List<Question> questionModelFromJson(String str) =>
     List<Question>.from(json.decode(str)["question"].map((x) => Question.fromJson(x)));
@@ -24,7 +25,8 @@ class Question {
   late final String d;
   late final String answer;
   late final String type;
-  Image? picture;
+  Widget? picture;
+  bool? special;
 
   Question.fromJson(Map<String, dynamic> json) {
     questionText = json['Q'];
@@ -50,19 +52,29 @@ class Question {
     return data;
   }
 
-  Image? getPicture(double size) {
+  Widget? getPicture(double size, bool pinchable, BuildContext? context) {
     var file = 'assets/images/questions/$id.png';
     return switch (type[0]) {
-      'P' => getImage(file, size),
+      'P' => getImage(file, size, pinchable, context),
       _ => null,
     };
   }
 
-  Image getImage(String file, double size) {
-    return Image.asset(
-      file,
-      fit: BoxFit.fitHeight,
-      height: size,
-    );
+  Widget getImage(String file, double size, bool pinchable, BuildContext? context) {
+    Image image = Image.asset(file, fit: BoxFit.fitHeight, height: size);
+
+    return switch (pinchable) {
+      false => image,
+      true => LimitedBox(
+          maxHeight: size,
+          maxWidth: MediaQuery.of(context!).size.width - 40,
+          child: PhotoView(
+            imageProvider: AssetImage(file),
+            backgroundDecoration: const BoxDecoration(
+              color: Colors.white,
+            ),
+          ),
+        ),
+    };
   }
 }

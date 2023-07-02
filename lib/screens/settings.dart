@@ -11,10 +11,12 @@ class Settings extends StatefulWidget {
 
 class _SettingsState extends State<Settings> {
   late bool truthSettings;
+  late bool soundSettings;
 
   @override
   void initState() {
     truthSettings = GlobalNav.instance.sharedPreferences!.getBool(AppConstants.truthSettingsKey)!;
+    soundSettings = GlobalNav.instance.sharedPreferences!.getBool(AppConstants.soundsKey)!;
     super.initState();
   }
 
@@ -35,6 +37,17 @@ class _SettingsState extends State<Settings> {
                 setState(() {
                   GlobalNav.instance.sharedPreferences!.setBool(AppConstants.truthSettingsKey, value);
                   truthSettings = value;
+                });
+              },
+            ),
+            const SizedBox(height: 40),
+            SwitchListTile(
+              title: const Text('Play Sounds'),
+              value: soundSettings,
+              onChanged: (value) {
+                setState(() {
+                  GlobalNav.instance.sharedPreferences!.setBool(AppConstants.soundsKey, value);
+                  soundSettings = value;
                 });
               },
             ),

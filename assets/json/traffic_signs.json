@@ -1651,6 +1651,36 @@
 			"D": "The broken line allows vehicles to cross for overtaking or to turn left",
 			"Answer": "D",
 			"Type": "P"
+		},	
+		{
+			"Q": "The yellow marking at the center of an intersection in the picture is _______.",
+			"Id": "2.3.1.26",
+			"A": "A cross-hatched marking",
+			"B": "A marking prohibiting non-motorized vehicles from passing",
+			"C": "A central circle",
+			"D": "A guide line",
+			"Answer": "A",
+			"Type": "P"
+		},	
+		{
+			"Q": "The zebra marking in the picture is _________.",
+			"Id": "2.3.1.27",
+			"A": "A stopping island",
+			"B": "A junction guide line",
+			"C": "A crosswalk",
+			"D": "A waiting area for non-motorized vehicles",
+			"Answer": "B",
+			"Type": "P"
+		},	
+		{
+			"Q": "The zebra marking in the picture is _________.",
+			"Id": "2.3.1.28",
+			"A": "A passenger getting-off area",
+			"B": "A passenger getting-on area",
+			"C": "A stopping and waiting area",
+			"D": "A long stopping area",
+			"Answer": "C",
+			"Type": "P"
 		}		
 	]
 }

@@ -16,7 +16,7 @@ class _SearchViewState extends State<SearchView> {
     List<Question> data = questionModelFromJson(jsonText);
     // now get the pictures, if they have one
     for (var question in data) {
-      question.picture = question.getPicture(50);
+      question.picture = question.getPicture(50, false, null);
     }
     return data;
   }
