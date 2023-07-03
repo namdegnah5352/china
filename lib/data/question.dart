@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:photo_view/photo_view.dart';
+import 'special.dart';
 
 List<Question> questionModelFromJson(String str) =>
     List<Question>.from(json.decode(str)["question"].map((x) => Question.fromJson(x)));
@@ -26,7 +27,7 @@ class Question {
   late final String answer;
   late final String type;
   Widget? picture;
-  bool? special;
+  Special? special;
 
   Question.fromJson(Map<String, dynamic> json) {
     questionText = json['Q'];

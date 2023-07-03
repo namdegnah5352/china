@@ -4,7 +4,7 @@ import '../calls/question_calls.dart';
 import '../config/navigation/global_nav.dart';
 import '../config/constants.dart';
 import 'package:audioplayers/audioplayers.dart';
-import 'dart:io';
+import '../data/special.dart';
 
 GlobalNav globalNav = GlobalNav.instance;
 
@@ -22,6 +22,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
   bool ans = false;
   late bool truthSettings;
   late bool soundSettings;
+  late bool specialSettings;
   final double volumeSetting = 0.05;
 
   @override
@@ -30,6 +31,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
     controller.text = widget.question.questionText;
     truthSettings = globalNav.sharedPreferences!.getBool(AppConstants.truthSettingsKey)!;
     soundSettings = globalNav.sharedPreferences!.getBool(AppConstants.soundsKey)!;
+    specialSettings = widget.question.special != null;
     super.initState();
   }
 
@@ -80,12 +82,35 @@ class _QuestionScreenState extends State<QuestionScreen> {
                       ))
                     : const SizedBox(height: 1, width: 1),
               ),
-              const SizedBox(height: 30),
+              const SizedBox(height: 15),
+              getSpecial(),
+              const SizedBox(height: 15),
               getNextButton(ans, 'Next'),
             ],
           ),
         ),
       ),
+    );
+  }
+
+  Widget getSpecial() {
+    return SwitchListTile(
+      title: const Text('Special'),
+      value: specialSettings,
+      onChanged: (value) {
+        switch (value) {
+          case true:
+            Special special = Special(id: widget.question.id, code: AppConstants.specialCode);
+            GlobalNav.instance.specials.addSpecial(special);
+            widget.question.special = special;
+          case false:
+            GlobalNav.instance.specials.removeSpecial(widget.question.special!);
+            widget.question.special = null;
+        }
+        setState(() {
+          specialSettings = value;
+        });
+      },
     );
   }
 

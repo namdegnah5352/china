@@ -2,6 +2,12 @@ import 'package:flutter/material.dart';
 import '../data/question.dart';
 import 'package:flutter/services.dart';
 import '../screens/question_search.dart';
+import '../data/special.dart';
+import '../config/navigation/global_nav.dart';
+import '../config/constants.dart';
+import 'package:collection/collection.dart';
+
+GlobalNav globalNav = GlobalNav.instance;
 
 class SearchView extends StatefulWidget {
   const SearchView({Key? key}) : super(key: key);
@@ -14,9 +20,10 @@ class _SearchViewState extends State<SearchView> {
   Future<List<Question>> loadJsonData(BuildContext context) async {
     var jsonText = await rootBundle.loadString('assets/json/traffic_signs.json');
     List<Question> data = questionModelFromJson(jsonText);
-    // now get the pictures, if they have one
+    globalNav.specials = specialModelFromJson(globalNav.sharedPreferences!.getString(AppConstants.specialKey)!);
     for (var question in data) {
       question.picture = question.getPicture(50, false, null);
+      question.special = globalNav.specials.firstWhereOrNull((element) => element.id == question.id);
     }
     return data;
   }

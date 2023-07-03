@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../constants.dart';
+import '../../data/special.dart';
 
 class GlobalNav {
   late final SharedPreferences? sharedPreferences;
@@ -10,6 +11,7 @@ class GlobalNav {
   factory GlobalNav() => instance;
 
   GlobalNav._internal();
+  late List<Special> specials;
 
   init() async {
     sharedPreferences = await SharedPreferences.getInstance();
@@ -23,4 +25,6 @@ void setUpShared(SharedPreferences sharedPreferences) {
   if (truthSettings == null) sharedPreferences.setBool(AppConstants.truthSettingsKey, AppConstants.truthSettings);
   bool? soundSettings = sharedPreferences.getBool(AppConstants.soundsKey);
   if (soundSettings == null) sharedPreferences.setBool(AppConstants.soundsKey, AppConstants.sounds);
+  String? specialSettings = sharedPreferences.getString(AppConstants.specialKey);
+  if (specialSettings == null) sharedPreferences.setString(AppConstants.specialKey, AppConstants.specialStart);
 }
