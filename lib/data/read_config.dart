@@ -9,14 +9,14 @@ import 'package:collection/collection.dart';
 
 GlobalNav globalNav = GlobalNav.instance;
 
-class SearchView extends StatefulWidget {
-  const SearchView({Key? key}) : super(key: key);
+class ReadConfig extends StatefulWidget {
+  const ReadConfig({Key? key}) : super(key: key);
 
   @override
-  State<SearchView> createState() => _SearchViewState();
+  State<ReadConfig> createState() => _ReadConfigState();
 }
 
-class _SearchViewState extends State<SearchView> {
+class _ReadConfigState extends State<ReadConfig> {
   Future<List<Question>> loadJsonData(BuildContext context) async {
     var jsonText = await rootBundle.loadString('assets/json/traffic_signs.json');
     List<Question> data = questionModelFromJson(jsonText);

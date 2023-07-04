@@ -18,6 +18,14 @@ void userInput(String criteria) {
   }
 }
 
+void specialInput() {
+  _results = _fulldata.where((question) => _getSpecialResult(question)).toList();
+}
+
+bool _getSpecialResult(Question question) {
+  return question.special != null && _getSearchResult(question, '');
+}
+
 bool _getSearchResult(Question question, String criteria) {
   bool result = false;
   var answers = switch (question.answer) {

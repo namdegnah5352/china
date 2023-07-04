@@ -19,7 +19,7 @@ class AppDrawer extends StatelessWidget {
             decoration: BoxDecoration(
               color: Colors.white,
               image: DecorationImage(
-                image: AssetImage('assets/images/drawer_top.png'),
+                image: AssetImage('assets/images/questions.png'),
                 fit: BoxFit.cover,
               ),
             ),
@@ -34,9 +34,16 @@ class AppDrawer extends StatelessWidget {
               await calls.loadSearchPage(context, questions);
             },
           ),
-          const Divider(
-            thickness: 1.0,
+          const Divider(thickness: 1.0),
+          ListTile(
+            leading: const Icon(Icons.hotel_class),
+            title: const Text('Special'),
+            onTap: () async {
+              Navigator.pop(context);
+              await calls.loadSpecialPage(context, questions);
+            },
           ),
+          const Divider(thickness: 1.0),
           ListTile(
             leading: const Icon(Icons.settings),
             title: const Text('Settings'),
@@ -45,31 +52,16 @@ class AppDrawer extends StatelessWidget {
               await calls.loadSettinsPage(context);
             },
           ),
-          const Divider(
-            thickness: 1.0,
-          ),
-          ListTile(
-            leading: const Icon(Icons.type_specimen),
-            title: const Text('Types'),
-            onTap: () async {
-              Navigator.pop(context);
-              // await calls.loadTypes();
-            },
-          ),
-          const Divider(
-            thickness: 1.0,
-          ),
+          const Divider(thickness: 1.0),
           ListTile(
             leading: const Icon(Icons.password),
-            title: const Text('Passwords'),
+            title: const Text('Test'),
             onTap: () async {
               Navigator.pop(context);
               // await calls.loadPasswords();
             },
           ),
-          const Divider(
-            thickness: 1.0,
-          ),
+          const Divider(thickness: 1.0),
           ListTile(
             leading: const Icon(Icons.home),
             title: const Text('Home'),
