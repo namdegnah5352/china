@@ -1631,7 +1631,7 @@
 			"D": "No stopping",
 			"Answer": "C",
 			"Type": "P"
-		},	
+		},
 		{
 			"Q": "The central yellow broken and solid lines in the picture mean ______.",
 			"Id": "2.3.1.24",
@@ -1651,7 +1651,7 @@
 			"D": "The broken line allows vehicles to cross for overtaking or to turn left",
 			"Answer": "D",
 			"Type": "P"
-		},	
+		},
 		{
 			"Q": "The yellow marking at the center of an intersection in the picture is _______.",
 			"Id": "2.3.1.26",
@@ -1661,7 +1661,7 @@
 			"D": "A guide line",
 			"Answer": "A",
 			"Type": "P"
-		},	
+		},
 		{
 			"Q": "The zebra marking in the picture is _________.",
 			"Id": "2.3.1.27",
@@ -1671,9 +1671,9 @@
 			"D": "A waiting area for non-motorized vehicles",
 			"Answer": "B",
 			"Type": "P"
-		},	
+		},
 		{
-			"Q": "The zebra marking in the picture is _________.",
+			"Q": "The road sign in the picture is __________.",
 			"Id": "2.3.1.28",
 			"A": "A passenger getting-off area",
 			"B": "A passenger getting-on area",
@@ -1681,6 +1681,156 @@
 			"D": "A long stopping area",
 			"Answer": "C",
 			"Type": "P"
-		}		
+		},
+		{
+			"Q": "The yellow central broken line on a two-way road is used to separate the traffic flow in the same direction.",
+			"Answer": "false",
+			"Id": "2.3.2.1",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The white lane-dividing line in the picture is used to separate the traffic flow in opposite directions.",
+			"Answer": "false",
+			"Id": "2.3.2.2",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The white solid lines in the picture are lane borderlines used to indicate the borders of the lanes for motorized vehicles.",
+			"Answer": "true",
+			"Id": "2.3.2.3",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The areas within the white markings in the picture are the areas for vehicle parking.",
+			"Answer": "true",
+			"Id": "2.3.2.4",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The areas within the white markings in the picture are the areas for no vehicle parking",
+			"Answer": "false",
+			"Id": "2.3.2.5",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The white left-turn guide broken line in the picture means the left-turning vehicles should drive on the Right side of the guide line.",
+			"Answer": "false",
+			"Id": "2.3.2.6",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The guide arrows on the road in the picture indicate the directions in which the vehicles should drive.",
+			"Answer": "true",
+			"Id": "2.3.2.7",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The central yellow broken and solid lines in the picture indicate that the solid line prohibits vehicles from crossing to overtake or turning left and the broken line also prohibits vehicles from crossing to overtake or turning left.",
+			"Answer": "false",
+			"Id": "2.3.2.8",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The central circle in the picture is used to distinguish between the sharp and gentle turns of the vehicles and guide the left and Right turns of the vehicles at the intersection. The vehicles are not allowed to roll over the marking.",
+			"Answer": "true",
+			"Id": "2.3.2.9",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The yellow cross-hatched marking at the center of the intersection in the picture is used to indicate to the drivers that no temporary stopping is allowed in this area in order to prevent traffic congestion",
+			"Answer": "true",
+			"Id": "2.3.2.10",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The yellow marking at the center of the intersection in the picture is an area prohibiting the passing of non-motorized vehicles, used to indicate to the drivers that temporary stopping is prohibited in this area.",
+			"Answer": "false",
+			"Id": "2.3.2.11",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The zebra markings in the picture mean the vehicles should go along the indicated lines and may roll on or cross over the markings.",
+			"Answer": "false",
+			"Id": "2.3.2.12",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The special lanes in the yellow broken lines in the picture are exclusively for the use of certain types of vehicles and other types of vehicles may use them for overtaking or running a long distance.",
+			"Answer": "false",
+			"Id": "2.3.2.13",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The road marking in the picture is a special space for taxicabs to take and drop passengers and other vehicles may use it for temporary stopping.",
+			"Answer": "false",
+			"Id": "2.3.2.14",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The road markings in the picture are speed limit markings, used to limit the maximum or minimum speeds of the vehicles.",
+			"Answer": "true",
+			"Id": "2.3.2.15",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is a signal for ________.",
+			"Id": "2.4.1.1",
+			"A": "Going straight",
+			"B": "Turning",
+			"C": "Stopping",
+			"D": "Pulling over",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is _______",
+			"Id": "2.4.1.2",
+			"A": "A signal for turning",
+			"B": "An auxiliary signal for going straight",
+			"C": "A signal for stopping",
+			"D": "A signal for going straight",
+			"Answer": "B",
+			"Type": "P"
+		},	
+		{
+			"Q": "The hand signal of the traffic police in the picture is ______.",
+			"Id": "2.4.1.3",
+			"A": "A signal for pulling over",
+			"B": "An auxiliary signal for turning right",
+			"C": "A signal for turning left gently",
+			"D": "A signal for turning right",
+			"Answer": "C",
+			"Type": "P"
+		},	
+		{
+			"Q": "The hand signal of the police in the picture is ______.",
+			"Id": "2.4.1.4",
+			"A": "A signal for turning left",
+			"B": "An auxiliary signal for turning left",
+			"C": "A signal for stopping",
+			"D": "A signal for turning left sharply",
+			"Answer": "D",
+			"Type": "P"
+		},	
+		{
+			"Q": "The hand signal of the traffic police in the picture is ________.",
+			"Id": "2.4.1.5",
+			"A": "A signal for waiting to turn left",
+			"B": "A signal for turning left",
+			"C": "An auxiliary signal for turning left sharply",
+			"D": "A signal for turning left sharply",
+			"Answer": "A",
+			"Type": "P"
+		},	
+		{
+			"Q": "The hand signal of the traffic police in the picture is ________.",
+			"Id": "2.4.1.6",
+			"A": "An auxiliary signal for stopping",
+			"B": "A signal for stopping",
+			"C": "A signal for turning",
+			"D": "A signal for pulling over",
+			"Answer": "A",
+			"Type": "P"
+		},		
 	]
 }

@@ -83,9 +83,9 @@ class _QuestionScreenState extends State<QuestionScreen> {
                     : const SizedBox(height: 1, width: 1),
               ),
               const SizedBox(height: 15),
-              getSpecial(),
-              const SizedBox(height: 15),
               getNextButton(ans, 'Next'),
+              const SizedBox(height: 15),
+              getSpecial(),
             ],
           ),
         ),
@@ -153,7 +153,8 @@ class _QuestionScreenState extends State<QuestionScreen> {
       style: ButtonStyle(
         padding: MaterialStateProperty.all<EdgeInsets>(const EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10)),
         alignment: Alignment.center,
-        backgroundColor: MaterialStateProperty.all<Color>(Colors.blue),
+        backgroundColor: MaterialStateProperty.all<Color>(
+            truthSettings && question.toLowerCase() == value.toLowerCase() ? Colors.green : Colors.blue),
       ),
       child: Text(
         question,
@@ -192,17 +193,17 @@ class _QuestionScreenState extends State<QuestionScreen> {
     return SizedBox(
       height: 100,
       child: FilledButton.tonal(
-        onPressed: value == false
-            ? null
-            : () {
+        onPressed: (value || truthSettings)
+            ? () {
                 Navigator.pop(context);
                 Question question = getRandomQuestion(widget.questions);
                 Navigator.of(context).push(MaterialPageRoute(builder: (context) => QuestionScreen(question, widget.questions)));
-              },
+              }
+            : null,
         style: ButtonStyle(
           padding: MaterialStateProperty.all<EdgeInsets>(const EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10)),
           alignment: Alignment.center,
-          backgroundColor: MaterialStateProperty.all<Color>(value ? Colors.green : Colors.blueGrey),
+          backgroundColor: MaterialStateProperty.all<Color>(value || truthSettings ? Colors.green : Colors.blueGrey),
           shape: MaterialStateProperty.all(RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(15),
             side: BorderSide(width: value ? 3 : 1),
