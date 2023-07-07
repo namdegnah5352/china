@@ -1831,6 +1831,122 @@
 			"D": "A signal for pulling over",
 			"Answer": "A",
 			"Type": "P"
-		}	
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is _______.",
+			"Id": "2.4.1.7",
+			"A": "A signal for pulling to the left",
+			"B": "A signal for stopping",
+			"C": "A signal for turning right",
+			"D": "A signal for pulling over",
+			"Answer": "D",
+			"Type": "P"
+		},	
+		{
+			"Q": "The hand signal of the traffic police in the picture is ______.",
+			"Id": "2.4.1.8",
+			"A": "A signal for pulling over",
+			"B": "A signal for slowing down",
+			"C": "An auxiliary signal for stopping",
+			"D": "A signal for turning right",
+			"Answer": "D",
+			"Type": "P"
+		},	
+		{
+			"Q": "The hand signal of the traffic police in the picture is ______.",
+			"Id": "2.4.1.9",
+			"A": "A signal for slowing down",
+			"B": "A signal for pulling over",
+			"C": "An auxiliary signal for stopping",
+			"D": "A signal for turning left",
+			"Answer": "A",
+			"Type": "P"
+		},	
+		{
+			"Q": "The hand signal of the traffic police in the picture is _______.",
+			"Id": "2.4.1.10",
+			"A": "A signal for pulling over",
+			"B": "A signal for the front vehicle to yield to the back car",
+			"C": "An auxiliary signal for stopping",
+			"D": "A signal for slowing down",
+			"Answer": "B",
+			"Type": "P"
+		},	
+		{
+			"Q": "The hand signal of the traffic police in the picture is _______.",
+			"Id": "2.4.1.11",
+			"A": "A signal for pulling over",
+			"B": "A signal for a rule-breaking vehicle to pull over",
+			"C": "An auxiliary signal for stopping",
+			"D": "A signal for slowing down",
+			"Answer": "B",
+			"Type": "P"
+		},	
+		{
+			"Q": "The hand signal of the traffic police in the picture is a signal for going straight.",
+			"Answer": "true",
+			"Id": "2.4.2.1",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The hand signal of the traffic police in the picture is a signal for turning left.",
+			"Answer": "false",
+			"Id": "2.4.2.2",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The hand signal of the traffic police in the picture is an auxiliary signal for going straight.",
+			"Answer": "true",
+			"Id": "2.4.2.3",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is an auxiliary signal for turning left.",
+			"Answer": "false",
+			"Id": "2.4.2.4",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The hand signal of the traffic police in the picture is a signal for turning Right.",
+			"Answer": "false",
+			"Id": "2.4.2.5",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is a signal for turning left sharply.",
+			"Answer": "false",
+			"Id": "2.4.2.6",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The hand signal of the traffic police in the picture is a signal for stopping.",
+			"Answer": "false",
+			"Id": "2.4.2.7",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The hand signal of the traffic police in the picture is a signal for the front vehicle to yield to the back vehicle.",
+			"Answer": "false",
+			"Id": "2.4.2.8",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is a signal for turning Right.",
+			"Answer": "false",
+			"Id": "2.4.2.9",
+			"Type": "Plogic"
+		},	
+		{
+			"Q": "The hand signal of the traffic police in the picture is a signal for the front vehicle to yield to the back vehicle.",
+			"Answer": "true",
+			"Id": "2.4.2.10",
+			"Type": "Plogic"
+		},		
+		{
+			"Q": "The hand signal of the traffic police in the picture is a signal for a rule-breaking vehicle to pull over.",
+			"Answer": "true",
+			"Id": "2.4.2.11",
+			"Type": "Plogic"
+		}		
 	]
 }
