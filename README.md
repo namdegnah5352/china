@@ -1,3 +1,14 @@
-# back_button_master
+# China Theory Test
 
-A new Flutter project.
+An app to get English speaking people through the Chinese Driving Theory Test
+
+Includes 
+
+all quesitons
+browsing mode
+learning mode
+search mode
+test mode
+help to guide through the whole process
+
+
