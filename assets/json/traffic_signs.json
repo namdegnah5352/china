@@ -1791,7 +1791,7 @@
 			"D": "A signal for going straight",
 			"Answer": "B",
 			"Type": "P"
-		},	
+		},
 		{
 			"Q": "The hand signal of the traffic police in the picture is ______.",
 			"Id": "2.4.1.3",
@@ -1801,7 +1801,7 @@
 			"D": "A signal for turning right",
 			"Answer": "C",
 			"Type": "P"
-		},	
+		},
 		{
 			"Q": "The hand signal of the police in the picture is ______.",
 			"Id": "2.4.1.4",
@@ -1811,7 +1811,7 @@
 			"D": "A signal for turning left sharply",
 			"Answer": "D",
 			"Type": "P"
-		},	
+		},
 		{
 			"Q": "The hand signal of the traffic police in the picture is ________.",
 			"Id": "2.4.1.5",
@@ -1821,7 +1821,7 @@
 			"D": "A signal for turning left sharply",
 			"Answer": "A",
 			"Type": "P"
-		},	
+		},
 		{
 			"Q": "The hand signal of the traffic police in the picture is ________.",
 			"Id": "2.4.1.6",
@@ -1841,7 +1841,7 @@
 			"D": "A signal for pulling over",
 			"Answer": "D",
 			"Type": "P"
-		},	
+		},
 		{
 			"Q": "The hand signal of the traffic police in the picture is ______.",
 			"Id": "2.4.1.8",
@@ -1851,7 +1851,7 @@
 			"D": "A signal for turning right",
 			"Answer": "D",
 			"Type": "P"
-		},	
+		},
 		{
 			"Q": "The hand signal of the traffic police in the picture is ______.",
 			"Id": "2.4.1.9",
@@ -1861,7 +1861,7 @@
 			"D": "A signal for turning left",
 			"Answer": "A",
 			"Type": "P"
-		},	
+		},
 		{
 			"Q": "The hand signal of the traffic police in the picture is _______.",
 			"Id": "2.4.1.10",
@@ -1871,7 +1871,7 @@
 			"D": "A signal for slowing down",
 			"Answer": "B",
 			"Type": "P"
-		},	
+		},
 		{
 			"Q": "The hand signal of the traffic police in the picture is _______.",
 			"Id": "2.4.1.11",
@@ -1881,19 +1881,19 @@
 			"D": "A signal for slowing down",
 			"Answer": "B",
 			"Type": "P"
-		},	
+		},
 		{
 			"Q": "The hand signal of the traffic police in the picture is a signal for going straight.",
 			"Answer": "true",
 			"Id": "2.4.2.1",
 			"Type": "Plogic"
-		},	
+		},
 		{
 			"Q": "The hand signal of the traffic police in the picture is a signal for turning left.",
 			"Answer": "false",
 			"Id": "2.4.2.2",
 			"Type": "Plogic"
-		},	
+		},
 		{
 			"Q": "The hand signal of the traffic police in the picture is an auxiliary signal for going straight.",
 			"Answer": "true",
@@ -1905,7 +1905,7 @@
 			"Answer": "false",
 			"Id": "2.4.2.4",
 			"Type": "Plogic"
-		},	
+		},
 		{
 			"Q": "The hand signal of the traffic police in the picture is a signal for turning Right.",
 			"Answer": "false",
@@ -1917,13 +1917,13 @@
 			"Answer": "false",
 			"Id": "2.4.2.6",
 			"Type": "Plogic"
-		},	
+		},
 		{
 			"Q": "The hand signal of the traffic police in the picture is a signal for stopping.",
 			"Answer": "false",
 			"Id": "2.4.2.7",
 			"Type": "Plogic"
-		},	
+		},
 		{
 			"Q": "The hand signal of the traffic police in the picture is a signal for the front vehicle to yield to the back vehicle.",
 			"Answer": "false",
@@ -1935,18 +1935,320 @@
 			"Answer": "false",
 			"Id": "2.4.2.9",
 			"Type": "Plogic"
-		},	
+		},
 		{
 			"Q": "The hand signal of the traffic police in the picture is a signal for the front vehicle to yield to the back vehicle.",
 			"Answer": "true",
 			"Id": "2.4.2.10",
 			"Type": "Plogic"
-		},		
+		},
 		{
 			"Q": "The hand signal of the traffic police in the picture is a signal for a rule-breaking vehicle to pull over.",
 			"Answer": "true",
 			"Id": "2.4.2.11",
 			"Type": "Plogic"
-		}		
+		},
+		{
+			"Q": "Before entering the driver’s cab, the driver _________ to make sure it is safe.",
+			"Id": "3.1.1.1",
+			"A": "Should observe the outside of the vehicle",
+			"B": "Does not have to observe the outside of the vehicle",
+			"C": "Can open the door and enter the vehicle right away",
+			"D": "Should observe the weather conditions",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When the driver and passengers get off a vehicle, they should ______.",
+			"Id": "3.1.1.2",
+			"A": "Open the door and get off the vehicle immediately after the vehicle stops",
+			"B": "Observe the traffic conditions in front",
+			"C": "Open the door before observing the traffic conditions beside and behind the vehicle",
+			"D": "Observe the traffic conditions beside and behind the vehicle before slowly opening the door",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When driving a motorized vehicle, the driver _____ the steering wheel.",
+			"Id": "3.1.1.3",
+			"A": "May temporarily take both hands off",
+			"B": "May operate at will",
+			"C": "Is prohibited from simultaneously taking both hands off",
+			"D": "May steer at the same place",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When applying the brake pedal, the driver should use ________.",
+			"Id": "3.1.1.4",
+			"A": "The front sole of the left foot",
+			"B": "The front sole of the right foot",
+			"C": "The central sole of the right foot",
+			"D": "The heel of the right foot",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When applying the brake pedal, the driver should use ________.",
+			"Id": "3.1.1.5",
+			"A": "Observe before depressing",
+			"B": "Does not have to observe when depressing or releasing",
+			"C": "Observe when depressing",
+			"D": "Observe when releasing",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When changing the gear, _________.",
+			"Id": "3.1.1.6",
+			"A": "The driver should not bow his head and look down",
+			"B": "The driver should push and pull slowly",
+			"C": "The driver should observe the gear position",
+			"D": "The driver can push and pull forcefully",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "The gear “2” of a motor vehicle with automatic transmission is used for _______.",
+			"Id": "3.1.1.7",
+			"A": "Driving on a gentle slope",
+			"B": "Stopping",
+			"C": "Normal driving",
+			"D": "Overtaking",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "The gear “P” of a motor vehicle with automatic transmission is used for ______.",
+			"Id": "3.1.1.8",
+			"A": "Driving on a steep slope",
+			"B": "Parking",
+			"C": "Normal driving",
+			"D": "Stopping at an intersection",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When starting up a motor vehicle with automatic transmission, the driver _____ and shift from the P gear to another gear.",
+			"Id": "3.1.1.9",
+			"A": "Does not depress the brake pedal",
+			"B": "Depresses the accelerator pedal",
+			"C": "Depresses the brake pedal",
+			"D": "Releases the handbrake",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When parking a motor vehicle with automatic transmission, the gear lever should _____ and the key should be pulled off.",
+			"Id": "3.1.1.10",
+			"A": "Be in the R gear",
+			"B": "Be in the N gear",
+			"C": "Be in the D gear",
+			"D": "Be in the P gear",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When starting the engine of a motor vehicle with automatic transmission, the gear lever should be placed in _____ position.",
+			"Id": "3.1.1.11",
+			"A": "Be in the D gear",
+			"B": "Be in the P gear",
+			"C": "Be in the N gear",
+			"D": "Any gear",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "The driver may use the left foot to depress the brake pedal of a motor vehicle with automatic transmission.",
+			"Answer": "false",
+			"Id": "3.1.2.1",
+			"Type": "Logic"
+		},
+		{
+			"Q": "The driver must use the Right foot to depress the brake pedal of a motor vehicle with either automatic or manual transmission",
+			"Answer": "true",
+			"Id": "3.1.2.2",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When a motor vehicle with automatic transmission runs on a steep slope, the “2” gear should be used.",
+			"Answer": "false",
+			"Id": "3.1.2.3",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When a motor vehicle with automatic transmission runs on a steep slope, the “L” gear should be used.",
+			"Answer": "true",
+			"Id": "3.1.2.4",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When a motor vehicle with automatic transmission runs on a level road, the “L” gear should be used.",
+			"Answer": "false",
+			"Id": "3.1.2.5",
+			"Type": "Logic"
+		},
+		{
+			"Q": "The key of a motor vehicle with automatic transmission cannot be pulled out when the gear lever is in a position other than the “P” gear.",
+			"Answer": "true",
+			"Id": "3.1.2.6",
+			"Type": "Logic"
+		},
+		{
+			"Q": "Before driving, the driver should check whether the coolant, engine oil and fuel oil are leaking.",
+			"Answer": "true",
+			"Id": "3.1.2.7",
+			"Type": "Logic"
+		},
+		{
+			"Q": "The main impact of rainy weather on safe driving is _______.",
+			"Id": "3.2.1.1",
+			"A": "The electric equipment is prone to getting wet and causing short circuit",
+			"B": "The road is wet and slippery and the visibility is poor",
+			"C": "The engine is prone to stop",
+			"D": "The resistance to the vehicle increases.",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "As the road is wet and slippery after rain, brake application when driving can easily _____.",
+			"Id": "3.2.1.2",
+			"A": "Cause engine kill",
+			"B": "Be ignored by the drivers of other vehicles",
+			"C": "Cause collision due to poor visibility",
+			"D": "Cause skid and sideways slide",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle runs on a wet and slippery road, the adhesion to the road surface ___ as the speed increases.",
+			"Id": "3.2.1.3",
+			"A": "Increases drastically",
+			"B": "Increases gradually",
+			"C": "Decreases drastically",
+			"D": "Does not change",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "The main impact of foggy weather on safe driving is _________.",
+			"Id": "3.2.1.4",
+			"A": "The engine can easily stop",
+			"B": "The vehicle can easily slide sideways",
+			"C": "The resistance the vehicle increases",
+			"D": "The visibility is low and the vision is poor",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When running at a high speed, the steering wheel can have a feel of “being deprived” due to the impact of _______. The driver should firmly hold the steering wheel and drives at a lower speed.",
+			"Id": "3.2.1.5",
+			"A": "Ice and snow",
+			"B": "Heavy rain",
+			"C": "Side wind",
+			"D": "Fog",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "The main feature of pedestrians participating in road traffic is _________.",
+			"Id": "3.2.1.6",
+			"A": "They move slowly",
+			"B": "The like to get together and look on",
+			"C": "They are not stable",
+			"D": "They walk around at will and can easily change directions",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "The main impact of the road conditions at night on safe driving is ________.",
+			"Id": "3.2.1.7",
+			"A": "The visibility is low and unfavorable for observing road traffic conditions",
+			"B": "The road surface is complex and changing",
+			"C": "The physical strength of the driver decreases",
+			"D": "The driver can easily have impulse and illusion",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "At night, the driver’s observation is markedly poorer than in the daytime and the range of visibility range is ___.",
+			"Id": "3.2.1.8",
+			"A": "Longer",
+			"B": "Shorter",
+			"C": "Unchanged",
+			"D": "Irregular",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "The main impact of the road conditions in icy and snowy weather is ______.",
+			"Id": "3.2.1.9",
+			"A": "The electric equipment can easily get wet and cause short circuit",
+			"B": "The visibility is lower and the field of vision is blurred",
+			"C": "The resistance to the vehicle increases",
+			"D": "The road surface is slippery and the sunshine reflection is strong, which interferes with the driver’s view",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When driving in icy and snowy weather, ________.",
+			"Id": "3.2.1.10",
+			"A": "The braking distance becomes longer",
+			"B": "The resistance to slide becomes larger",
+			"C": "The road grip becomes stronger",
+			"D": "The braking performance does not change",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "The main impact of muddy roads on safe driving is _________.",
+			"Id": "3.2.1.11",
+			"A": "The resistance to the vehicle becomes weaker",
+			"B": "The tires can easily spin and skid",
+			"C": "The visibility become lower and blurs the field of vision",
+			"D": "The road grip becomes stronger",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "The reason that a road destroyed by flood affects safe driving and smooth passage is ______.",
+			"Id": "3.2.1.12",
+			"A": "It is impossible to see the hidden holes and bumps in road surface",
+			"B": "The road surface is slippery and can easily cause skidding when braking",
+			"C": "The vehicle can easily skid",
+			"D": "The sunshine reflection blurs the view",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "The main impact of mountain roads on safe driving is _______.",
+			"Id": "3.2.1.13",
+			"A": "The road signs are fewer",
+			"B": "The traffic conditions are boring",
+			"C": "The slopes are long, the curves are sharp and there are more dangerous road sections",
+			"D": "The traffic flow is heavy",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle coming in the opposite direction suddenly overtakes and occupies your lane, the correct way to deal with this situation is to __________.",
+			"Id": "3.2.1.14",
+			"A": "Speed up and go forward",
+			"B": "Reduce speed and avoid as much as possible",
+			"C": "Maintain the original speed",
+			"D": "Obstruct the way of that vehicle",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "If all lights of a vehicle on the road go off suddenly at night, the driver should _______.",
+			"Id": "3.2.1.15",
+			"A": "Drive at reduced speed",
+			"B": "Brake as fast as possible and stop where it is",
+			"C": "Brake immediately and stop on the road side",
+			"D": "Stop slowly under inertia",
+			"Answer": "C",
+			"Type": "N"
+		}
 	]
 }
