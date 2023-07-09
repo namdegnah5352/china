@@ -2249,6 +2249,226 @@
 			"D": "Stop slowly under inertia",
 			"Answer": "C",
 			"Type": "N"
-		}
+		},
+		{
+			"Q": "Violent wind can cause a sideways swerve to a running vehicle.",
+			"Answer": "true",
+			"Id": "3.2.2.1",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When driving at night, the driver’s visibility range becomes shorter and his observation becomes poorer. At the same time, the driver can easily become tired because he has to highly concentrate his attention.",
+			"Answer": "true",
+			"Id": "3.2.2.2",
+			"Type": "Logic"
+		},	
+		{
+			"Q": "When driving at night, the driver can still see clearly the road conditions in front within a shortly after he encounters the high beam light in the opposite direction.",
+			"Answer": "false",
+			"Id": "3.2.2.3",
+			"Type": "Logic"
+		},	
+		{
+			"Q": "When driving in icy and snowy weather, light reflection from the accumulated snow can easily make a driver feel dizzy and have an illusion.",
+			"Answer": "true",
+			"Id": "3.2.2.4",
+			"Type": "Logic"
+		},	
+		{
+			"Q": "When driving in icy and snowy weather, the vehicle steadiness decreases and sudden acceleration can very easily cause spins and slides.",
+			"Answer": "true",
+			"Id": "3.2.2.5",
+			"Type": "Logic"
+		},	
+		{
+			"Q": "When braking on a muddy road, the tires can easily spin or drift and cause traffic accidents.",
+			"Answer": "true",
+			"Id": "3.2.2.6",
+			"Type": "Logic"
+		},	
+		{
+			"Q": "When passing through an overflowing road, a high gear should be used to pass rapidly.",
+			"Answer": "false",
+			"Id": "3.2.2.7",
+			"Type": "Logic"
+		},	
+		{
+			"Q": "Mountain roads are noted for long and steep slopes, narrow surfaces and sharp curves, which can easily cause traffic accidents.",
+			"Answer": "false",
+			"Id": "3.2.2.8",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When a driver suddenly encounters a vehicle in the opposite direction that forces its way by overtaking and occupying his lane, the driver may refuse to avoid it and force it to yield to you.",
+			"Answer": "false",
+			"Id": "3.2.2.9",
+			"Type": "Logic"
+		},	
+		{
+			"Q": "When all lights of a vehicle suddenly go off while running at night, the driver should immediately brake and stop.",
+			"Answer": "false",
+			"Id": "3.2.2.10",
+			"Type": "Logic"
+		},	
+		{
+			"Q": "When discovering a vehicle requiring help while driving, the driver should _______.",
+			"Id": "3.3.1.1",
+			"A": "Reduce speed and stop to give help",
+			"B": "Speed up and pass",
+			"C": "Ignore it",
+			"D": "Find an excuse to reject",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When another driver asks directions while driving, the driver should _________.",
+			"Id": "3.3.1.2",
+			"A": "Ignore it",
+			"B": "Answer with patience",
+			"C": "Find an excuse to reject",
+			"D": "Answer for a pay",
+			"Answer": "B",
+			"Type": "N"
+		},	
+		{
+			"Q": "When encountering a traffic accident ahead and help is needed while driving, the driver should ________.",
+			"Id": "3.3.1.3",
+			"A": "Bypass to dodge it as much as possible",
+			"B": "Immediately report to the police, stop and look on.",
+			"C": "Help to preserve the scene and immediately report to the police",
+			"D": "Speed up and pass to ignore it",
+			"Answer": "C",
+			"Type": "N"
+		},	
+		{
+			"Q": "When discovering another vehicle having safety hazard while driving, the driver should _______.",
+			"Id": "3.3.1.4",
+			"A": "Leave as fast as possible",
+			"B": "Follow the vehicle and observe",
+			"C": "Ignore it",
+			"D": "Remind the other side in a timely manner",
+			"Answer": "D",
+			"Type": "N"
+		},	
+		{
+			"Q": "When finding another vehicle stuck in a damaged road and unable to run while driving, the driver should ____.",
+			"Id": "3.3.1.5",
+			"A": "Leave as fast as possible",
+			"B": "Help as much as possible",
+			"C": "Go ahead by changing road",
+			"D": "Pass by a detour",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When discovering the persons injured in a traffic accident need rescue while driving, the driver should _____.",
+			"Id": "3.3.1.6",
+			"A": "Send the injured persons to hospital in a timely manner or make emergency calls",
+			"B": "Dodge as much as possible",
+			"C": "Go ahead by bypassing the scene",
+			"D": "Find an excuse to dodge the scene",
+			"Answer": "A",
+			"Type": "N"
+		},	
+		{
+			"Q": "When encountering a vehicle in the opposite direction forcing its way by using his lane, the driver should _____.",
+			"Id": "3.3.1.7",
+			"A": "Go ahead by the center of the road",
+			"B": "Voluntarily yield to the other side",
+			"C": "Use the high beam light to warn the other side",
+			"D": "Force the other side to drive by the right side",
+			"Answer": "B",
+			"Type": "N"
+		},	
+		{
+			"Q": "When discovering traffic congestion ahead while driving, the driver should ________.",
+			"Id": "3.3.1.8",
+			"A": "Find a chance to overtake the vehicle in front",
+			"B": "Weave through other vehicles",
+			"C": "Reduce speed, stop and wait in line",
+			"D": "Honk to urge other vehicles",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When finding a vehicle in the opposite direction having difficulty to go forward and needing to borrow road while crossing each other, the driver should ________.",
+			"Id": "3.3.1.9",
+			"A": "Not occupy the road of the other side and should go forward normally",
+			"B": "Indicate the other side to stop and yield",
+			"C": "Speed up and go forward by the right side",
+			"D": "Yield to the other side as much as possible",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When discovering a vehicle behind wanting to overtake while driving, the driver should _______.",
+			"Id": "3.3.1.10",
+			"A": "Move to the right side and yield in a timely manner",
+			"B": "Reduce speed and go ahead slowly",
+			"C": "Speed up and go ahead by the right side",
+			"D": "Not yield",
+			"Answer": "A",
+			"Type": "N"
+		},	
+		{
+			"Q": "When discovering another vehicle stuck in a muddy road and requiring help while driving, the driver should ___.",
+			"Id": "3.3.1.11",
+			"A": "Bypass",
+			"B": "Help voluntarily",
+			"C": "Ignore it",
+			"D": "Make detour",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "The three golden rules for cautious driving are concentration, careful observation and _______.",
+			"Id": "3.3.1.12",
+			"A": "Be bold and careful",
+			"B": "Be nimble",
+			"C": "Early prevention",
+			"D": "Drive slowly",
+			"Answer": "C",
+			"Type": "N"
+		},	
+		{
+			"Q": "When a vehicle runs normally, the driver should be able to foresee road conditions and can ___ when approaching an obstacle.",
+			"Id": "3.3.1.13",
+			"A": "Take an emergency brake and stop the vehicle",
+			"B": "Swiftly steer away and bypass",
+			"C": "Rapidly dodge to avoid collision",
+			"D": "Steadily stop the vehicle",
+			"Answer": "D",
+			"Type": "N"
+		},	
+		{
+			"Q": "When driving a vehicle, the driver should drive in a safe, ______ and friendly manner.",
+			"Id": "3.3.1.14",
+			"A": "Courteous",
+			"B": "Nimble",
+			"C": "Selfish",
+			"D": "Jump-starting",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When discovering the vehicle in front running slowly while driving, the driver should _______",
+			"Id": "3.3.1.15",
+			"A": "Overtake from the right side when approaching the vehicle in front",
+			"B": "Change lane and overtake in advance",
+			"C": "Honk to urge",
+			"D": "Overtake by using the lane for non-motorized vehicles",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When overtaking, the driver should ________ if the vehicle in front refuses to reduce speed or yield.",
+			"Id": "3.3.1.16",
+			"A": "Continuously honk and speed up to overtake",
+			"B": "Speed up and continue to overtake",
+			"C": "Stop overtaking",
+			"D": "Follow closely and find chance to overtake again",
+			"Answer": "C",
+			"Type": "N"
+		}		
 	]
 }
