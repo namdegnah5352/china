@@ -25,6 +25,7 @@ class _ReadConfigState extends State<ReadConfig> {
       question.picture = question.getPicture(50, false, null);
       question.special = globalNav.specials.firstWhereOrNull((element) => element.id == question.id);
     }
+    print('The number of questions done is ${data.length} out of 1500');
     return data;
   }
 
